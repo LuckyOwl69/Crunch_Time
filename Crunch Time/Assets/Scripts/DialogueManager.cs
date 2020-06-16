@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text nameText;
+    public Text currentSpeakerText;
     public Text dialogueText;
 
     private Queue<string> sentences;
@@ -37,7 +37,7 @@ public class DialogueManager : MonoBehaviour
         npcFaceAnimator.SetBool("IsOpen", true);
         isTalking = true;
 
-        nameText.text = dialogue.name;
+        currentSpeakerText.text = dialogue.name;
 
         sentences.Clear();
 
