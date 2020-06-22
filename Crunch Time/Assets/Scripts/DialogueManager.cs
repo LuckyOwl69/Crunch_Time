@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
 
     public Animator dialogueBoxAnimator;
-    public Animator npcFaceAnimator;
+    //public Animator npcFaceAnimator;
 
     public List<GameObject> talkButtons;
 
@@ -25,7 +25,11 @@ public class DialogueManager : MonoBehaviour
         isTalking = false;
     }
 
-
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Return))
+            DisplayNextSentence();
+    }
 
     public void StartDialogue(Dialogue dialogue)
     {
@@ -33,8 +37,10 @@ public class DialogueManager : MonoBehaviour
         {
             talkButton.gameObject.SetActive(false);
         }
+
         dialogueBoxAnimator.SetBool("IsOpen", true);
-        npcFaceAnimator.SetBool("IsOpen", true);
+        //npcFaceAnimator.SetBool("IsOpen", true);
+
         isTalking = true;
 
         currentSpeakerText.text = dialogue.name;
@@ -85,8 +91,10 @@ public class DialogueManager : MonoBehaviour
         {
 
         }
+
         dialogueBoxAnimator.SetBool("IsOpen", false);
-        npcFaceAnimator.SetBool("IsOpen", false);
+        //npcFaceAnimator.SetBool("IsOpen", false);
+
         isTalking = false;
     }
 }

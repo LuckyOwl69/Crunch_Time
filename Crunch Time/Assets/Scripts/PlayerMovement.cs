@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
 
-    //public Animator animator;
+    public Animator animator;
 
     Vector2 movement;
 
@@ -21,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        //animator.SetFloat("RightSpeed", movement.x);
-        //animator.SetFloat("UpSpeed", movement.y);
+        animator.SetFloat("RightSpeed", movement.x);
+        animator.SetFloat("UpSpeed", movement.y);
     }
 
     void Movement()
