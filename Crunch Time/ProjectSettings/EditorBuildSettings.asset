@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Templates/Battle_Zero.unity
     guid: 9ce0070ff373bf542a8be596fa7e857a
+  - enabled: 1
+    path: Assets/Scenes/Misc/Main_Menu.unity
+    guid: 1b17eeb1d1516e749835d162eda34ad5
   m_configObjects: {}
