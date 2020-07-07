@@ -8,6 +8,11 @@ public class ExitController : MonoBehaviour
 {
     public string NextScene;
 
+    public GameManager GameManagerObject;
+
+    public float NextScenePositionX;
+    public float NextScenePositionY;
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -15,8 +20,8 @@ public class ExitController : MonoBehaviour
             SceneManager.LoadScene(NextScene);
             //SceneManager.LoadScene('"' + NextScene.name + '"');
 
-            //GameManager.overworldPos.x = NextScenePositionX;
-            //GameManager.overworldPos.y = NextScenePositionY;
+            GameManager.overworldPos.x = NextScenePositionX;
+            GameManager.overworldPos.y = NextScenePositionY;
 
             //GameManager.storyState = currentStoryState;
         }

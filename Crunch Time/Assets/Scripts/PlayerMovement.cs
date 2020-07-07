@@ -14,6 +14,11 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
+    void Start()
+    {
+        transform.position = GameManager.overworldPos;
+    }
+
     // Update is called once per frame
     void Update()
     {

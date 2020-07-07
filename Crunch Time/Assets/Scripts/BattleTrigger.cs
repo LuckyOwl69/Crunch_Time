@@ -8,6 +8,9 @@ public class BattleTrigger : MonoBehaviour
 {
     public GameObject player;
 
+    public float minSteps;
+    public float maxSteps;
+
     public float battleTrigger;
 
     public float distanceTravelled;
@@ -23,7 +26,7 @@ public class BattleTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        battleTrigger = Random.Range(10.0f, 20.0f);
+        battleTrigger = Random.Range(minSteps, maxSteps);
 
     }
 

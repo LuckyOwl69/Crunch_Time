@@ -4,18 +4,32 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject playerStartPos;
+    public static GameManager instance;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        player.transform.position = playerStartPos.transform.position;
-    }
+    public static Vector3 overworldPos;
 
-    // Update is called once per frame
-    void Update()
+    public float overworldPosX;
+    public float overworldPosY;
+
+    void Awake()
     {
-        
+
+
+        if (instance == null)
+        {
+            //set overworld positions
+            overworldPos.x = overworldPosX;
+            overworldPos.y = overworldPosY;
+
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+
+
     }
 }
