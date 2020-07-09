@@ -26,7 +26,7 @@ public class TalkIconController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKey(KeyCode.Return))
+        if (Input.GetKey(KeyCode.Return) || Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.Space))
         {
             dialogueScript.TriggerDialogue();
             //Debug.Log("ass");
