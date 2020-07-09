@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public float overworldPosX;
     public float overworldPosY;
 
+    public float storyState;
+
     void Awake()
     {
 

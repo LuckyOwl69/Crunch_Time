@@ -224,6 +224,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 6799870562248816857}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1485451499 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2648172909296500491, guid: f3ebe1dfd2d753f42a9b6e588638e03a,
+    type: 3}
+  m_PrefabInstance: {fileID: 711566148}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada2b5d98609a0748a60b2ed099bb07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1594958353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1460909354802986149, guid: 578051969e798ad47ac9ee19501ec893,
@@ -468,6 +480,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1460909354802986150, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460909354802986151, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460909354802986151, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 578051969e798ad47ac9ee19501ec893, type: 3}
 --- !u!1001 &1709375417074921757
@@ -546,6 +573,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2403552453427777321, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1485451499}
     - target: {fileID: 5542955460059123456, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -764,6 +796,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Office Rooms Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 6799870561975721758, guid: ba11147cb51dc8840a0c681307da6bb3,
         type: 3}
