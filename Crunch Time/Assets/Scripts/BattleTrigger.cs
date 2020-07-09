@@ -26,6 +26,10 @@ public class BattleTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player.transform.position = GameManager.overworldPos;
+
+        playerPositionPrevious = player.transform.position;
+
         battleTrigger = Random.Range(minSteps, maxSteps);
 
     }
@@ -46,7 +50,7 @@ public class BattleTrigger : MonoBehaviour
         {
             if (distanceTravelled >= battleTrigger)
             {
-                //GameManager.overworldPos = transform.position;
+                GameManager.overworldPos = player.transform.position;
                 SceneManager.LoadScene(battleScene);
 
             }

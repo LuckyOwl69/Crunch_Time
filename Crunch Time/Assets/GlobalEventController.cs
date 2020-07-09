@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class GlobalEventController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float minStoryState;
+    public float maxStoryState;
 
-    // Update is called once per frame
+    public float currentStoryState;
+
+    public GameManager gameManager;
+
     void Update()
     {
-        
+        //GameManager.storyState = currentStoryState;
+
+
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (gameManager.storyState < maxStoryState && gameManager.storyState >= minStoryState) 
+        {
+            if (Input.GetKey(KeyCode.Return))
+            {
+                gameManager.storyState = currentStoryState;
+            }
+        }
+            
     }
 }
