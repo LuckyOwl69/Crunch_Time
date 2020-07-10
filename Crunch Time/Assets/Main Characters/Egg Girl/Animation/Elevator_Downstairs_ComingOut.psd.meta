@@ -1,28 +1,49 @@
 fileFormatVersion: 2
-guid: a2e1b59be40f927448d753ee022cc54c
+guid: aa8fd28b85f999a47aad0c5df50f57fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6784106382217447995
-    second: Elevator_Upstairs_GoingIn_0
+      213: 2902882695732268073
+    second: Elevator_Downstairs_ComingOut_0
   - first:
-      213: -415165689171331861
-    second: Elevator_Upstairs_GoingIn_1
+      213: -5500654701101763108
+    second: Elevator_Downstairs_ComingOut_1
   - first:
-      213: 8588213747993120135
-    second: Elevator_Upstairs_GoingIn_2
+      213: -8374639986739346678
+    second: Elevator_Downstairs_ComingOut_2
   - first:
-      213: -5418825641175082810
-    second: Elevator_Upstairs_GoingIn_3
+      213: 4963014870551384592
+    second: Elevator_Downstairs_ComingOut_3
   - first:
-      213: 3339535095518955853
-    second: Elevator_Upstairs_GoingIn_4
+      213: -2826538162676359907
+    second: Elevator_Downstairs_ComingOut_4
   - first:
-      213: 3887025130004992921
-    second: Elevator_Upstairs_GoingIn_5
+      213: 2149598126903922394
+    second: Elevator_Downstairs_ComingOut_5
   - first:
-      213: 7926706409912736451
-    second: Elevator_Upstairs_GoingIn_6
+      213: -3256970835174129276
+    second: Elevator_Downstairs_ComingOut_6
+  - first:
+      213: 8665106969719006568
+    second: Elevator_Downstairs_ComingOut_0
+  - first:
+      213: -3507747400289253007
+    second: Elevator_Downstairs_ComingOut_1
+  - first:
+      213: -6732763375469596119
+    second: Elevator_Downstairs_ComingOut_2
+  - first:
+      213: 6814573644046191041
+    second: Elevator_Downstairs_ComingOut_3
+  - first:
+      213: -82458259061801720
+    second: Elevator_Downstairs_ComingOut_4
+  - first:
+      213: 1637733088010101251
+    second: Elevator_Downstairs_ComingOut_5
+  - first:
+      213: 7539748526313867548
+    second: Elevator_Downstairs_ComingOut_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Elevator_Upstairs_GoingIn_0
+      name: Elevator_Downstairs_ComingOut_0
       rect:
         serializedVersion: 2
         x: 0
@@ -122,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c5f77960330ad1a0800000000000000
-      internalID: -6784106382217447995
+      spriteID: 865ecd611e4a04870800000000000000
+      internalID: 8665106969719006568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elevator_Upstairs_GoingIn_1
+      name: Elevator_Downstairs_ComingOut_1
       rect:
         serializedVersion: 2
         x: 953
@@ -143,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be4330e51090d3af0800000000000000
-      internalID: -415165689171331861
+      spriteID: 17985f3035af15fc0800000000000000
+      internalID: -3507747400289253007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elevator_Upstairs_GoingIn_2
+      name: Elevator_Downstairs_ComingOut_2
       rect:
         serializedVersion: 2
         x: 1906
@@ -164,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d8148c6e67f2770800000000000000
-      internalID: 8588213747993120135
+      spriteID: 922ff58b16b6092a0800000000000000
+      internalID: -6732763375469596119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elevator_Upstairs_GoingIn_3
+      name: Elevator_Downstairs_ComingOut_3
       rect:
         serializedVersion: 2
         x: 2859
@@ -185,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c81bfd1ac67cc4b0800000000000000
-      internalID: -5418825641175082810
+      spriteID: 1c9cc15cf9a329e50800000000000000
+      internalID: 6814573644046191041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elevator_Upstairs_GoingIn_4
+      name: Elevator_Downstairs_ComingOut_4
       rect:
         serializedVersion: 2
         x: 3812
@@ -206,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d498b5bc979685e20800000000000000
-      internalID: 3339535095518955853
+      spriteID: 80df2d776ac0bdef0800000000000000
+      internalID: -82458259061801720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elevator_Upstairs_GoingIn_5
+      name: Elevator_Downstairs_ComingOut_5
       rect:
         serializedVersion: 2
         x: 4765
@@ -227,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 993d6fae2cc71f530800000000000000
-      internalID: 3887025130004992921
+      spriteID: 302eeb301956ab610800000000000000
+      internalID: 1637733088010101251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elevator_Upstairs_GoingIn_6
+      name: Elevator_Downstairs_ComingOut_6
       rect:
         serializedVersion: 2
         x: 5718
@@ -248,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ca19a97b71510e60800000000000000
-      internalID: 7926706409912736451
+      spriteID: c1986be565192a860800000000000000
+      internalID: 7539748526313867548
       vertices: []
       indices: 
       edges: []
