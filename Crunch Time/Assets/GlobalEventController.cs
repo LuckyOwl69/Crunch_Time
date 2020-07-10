@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//THIS SCRIPT SETS THE STORY STATE ONLY
+
 public class GlobalEventController : MonoBehaviour
 {
     public float minStoryState;
@@ -13,9 +15,7 @@ public class GlobalEventController : MonoBehaviour
 
     void Update()
     {
-        //GameManager.storyState = currentStoryState;
-
-
+        
     }
 
     void OnTriggerStay2D(Collider2D collision)
