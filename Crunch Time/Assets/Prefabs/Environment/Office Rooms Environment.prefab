@@ -109,7 +109,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992957551977245688}
-  - component: {fileID: 5992957551977245691}
+  - component: {fileID: 4023555131512458391}
+  - component: {fileID: 8749975337462983}
   m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
@@ -131,7 +132,40 @@ Transform:
   m_Father: {fileID: 5992957552069668485}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &5992957551977245691
+--- !u!60 &4023555131512458391
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992957551977245689}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 7.0768104, y: 2.4108825}
+      - {x: 9.192338, y: 2.3850837}
+      - {x: 9.235628, y: -2.1377163}
+      - {x: 10.391067, y: -2.1374679}
+      - {x: 10.445246, y: 4.2558923}
+      - {x: -8.722112, y: 4.228137}
+      - {x: -8.750917, y: -2.0407403}
+      - {x: 7.0200934, y: -2.0648499}
+--- !u!68 &8749975337462983
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,11 +181,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -8.740581, y: -1.7720649}
-  - {x: 10.404446, y: -1.7618151}
-  - {x: 10.456937, y: -6.7766347}
-  - {x: -8.80061, y: -6.7753067}
-  - {x: -8.770244, y: -1.7788363}
+  - {x: -8.782607, y: -2.0945654}
+  - {x: -8.782526, y: -6.5603447}
+  - {x: 10.436723, y: -6.5858874}
+  - {x: 10.426487, y: -2.1656666}
 --- !u!1 &5992957552069668482
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5992957553031215989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.31, y: -0.62, z: 0}
+  m_LocalPosition: {x: 7.31, y: -0.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5992957552069668485}

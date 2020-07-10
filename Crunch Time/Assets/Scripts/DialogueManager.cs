@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Permissions;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class DialogueManager : MonoBehaviour
 {
@@ -13,6 +16,11 @@ public class DialogueManager : MonoBehaviour
 
     public Animator dialogueBoxAnimator;
     //public Animator npcFaceAnimator;
+
+    //public List<TalkIconController> NPCPrefabs;
+
+    //public bool battleTime;
+    //public string battleScene;
 
     public List<GameObject> talkButtons;
 
@@ -37,7 +45,7 @@ public class DialogueManager : MonoBehaviour
       // Only listen for next-bit-of-dialogue key if we're in conversation
       if (_isTalking)
       {
-        if (Input.GetKeyUp(KeyCode.Return)) 
+        if (Input.GetKeyUp(KeyCode.Space)) 
         {
           DisplayNextSentence();
         }
@@ -103,6 +111,11 @@ public class DialogueManager : MonoBehaviour
         {
 
         }
+
+        
+
+        //if(battleTime = true)
+        //    SceneManager.LoadScene(battleScene);
 
         dialogueBoxAnimator.SetBool("IsOpen", false);
         //npcFaceAnimator.SetBool("IsOpen", false);

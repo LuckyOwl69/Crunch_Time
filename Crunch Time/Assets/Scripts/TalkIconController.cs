@@ -8,6 +8,9 @@ public class TalkIconController : MonoBehaviour
 
     public GameObject talkIcon;
     private bool _inTalkingRange = false;
+    public static bool availableToTalk = true;
+
+
 
     private void Start()
     {
@@ -22,22 +25,20 @@ public class TalkIconController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        
-        //if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.E) || Input.GetKeyUp(KeyCode.Space))
-        //{
-        //    dialogueScript.TriggerDialogue();
-            //Debug.Log("ass");
-        //}
+       
     }
 
     private void Update() {
-        if (_inTalkingRange)
+
+        if(availableToTalk)
         {
-          if (Input.GetKeyUp(KeyCode.E) || Input.GetKeyUp(KeyCode.Space))
-          {
-              dialogueScript.TriggerDialogue();
-              //Debug.Log("ass");
-          }
+            if (_inTalkingRange)
+            {
+                if (Input.GetKeyUp(KeyCode.E))
+                {
+                    dialogueScript.TriggerDialogue();
+                }
+            }
         }
     }
 

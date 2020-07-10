@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    //new one
     public static GameManager instance;
 
     public static Vector3 overworldPos;
@@ -11,7 +12,7 @@ public class GameManager : MonoBehaviour
     public float overworldPosX;
     public float overworldPosY;
 
-    public float storyState;
+    public static float storyState = 1;
 
     void Awake()
     {

@@ -805,12 +805,12 @@ PrefabInstance:
     - target: {fileID: 5992957553031215990, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: NextScenePositionX
-      value: -12.27
+      value: -24.63
       objectReference: {fileID: 0}
     - target: {fileID: 5992957553031215990, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: NextScenePositionY
-      value: 7.99
+      value: 14.1
       objectReference: {fileID: 0}
     - target: {fileID: 9194028729534499675, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
