@@ -750,8 +750,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 1. Hi I'm the burgerboss.. Nice to sesame see you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 2. Get me some fries.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].name
+      value: Burger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].name
+      value: Burger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
+      value: 1. I am burger boss.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
+      value: 2. You are expendable.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
+      value: 3. You're back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[1]
+      value: 4. Don't be.
       objectReference: {fileID: 0}
     - target: {fileID: 5542955460059123461, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}

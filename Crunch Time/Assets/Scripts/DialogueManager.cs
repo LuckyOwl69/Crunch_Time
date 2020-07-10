@@ -16,19 +16,32 @@ public class DialogueManager : MonoBehaviour
 
     public List<GameObject> talkButtons;
 
-    bool isTalking;
+    private bool _isTalking;
 
 
     void Start()
     {
         sentences = new Queue<string>();
-        isTalking = false;
+        _isTalking = false;
+    }
+
+    // public but unsettable IsTalking variable lets others know
+    // if we're already busy.
+    public bool IsTalking
+    {
+        get { return _isTalking; }
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
-            DisplayNextSentence();
+      // Only listen for next-bit-of-dialogue key if we're in conversation
+      if (_isTalking)
+      {
+        if (Input.GetKeyUp(KeyCode.Return)) 
+        {
+          DisplayNextSentence();
+        }
+      }
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -41,7 +54,7 @@ public class DialogueManager : MonoBehaviour
         dialogueBoxAnimator.SetBool("IsOpen", true);
         //npcFaceAnimator.SetBool("IsOpen", true);
 
-        isTalking = true;
+        _isTalking = true;
 
         currentSpeakerText.text = dialogue.name;
 
@@ -55,12 +68,11 @@ public class DialogueManager : MonoBehaviour
 
         DisplayNextSentence();
 
-
     }
 
     public void DisplayNextSentence()
     {
-        if (isTalking)
+        if (_isTalking)
         {
             if (sentences.Count == 0)
             {
@@ -95,6 +107,6 @@ public class DialogueManager : MonoBehaviour
         dialogueBoxAnimator.SetBool("IsOpen", false);
         //npcFaceAnimator.SetBool("IsOpen", false);
 
-        isTalking = false;
+        _isTalking = false;
     }
 }
