@@ -15,7 +15,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
 
     public Animator dialogueBoxAnimator;
-    //public Animator npcFaceAnimator;
+    public Animator npcFaceAnimator;
 
     //public List<TalkIconController> NPCPrefabs;
 
@@ -60,7 +60,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         dialogueBoxAnimator.SetBool("IsOpen", true);
-        //npcFaceAnimator.SetBool("IsOpen", true);
+        npcFaceAnimator.SetBool("IsOpen", true);
 
         _isTalking = true;
 
@@ -118,7 +118,7 @@ public class DialogueManager : MonoBehaviour
         //    SceneManager.LoadScene(battleScene);
 
         dialogueBoxAnimator.SetBool("IsOpen", false);
-        //npcFaceAnimator.SetBool("IsOpen", false);
+        npcFaceAnimator.SetBool("IsOpen", false);
 
         _isTalking = false;
     }

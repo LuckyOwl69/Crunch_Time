@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 1a746e64e20ef35449e1295842434a0d
+guid: bbc29082194280d47b5ec622e64a40d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7268492462577066989
-    second: Walk Up_0
+      213: -8757120623538144183
+    second: Side Walk Right_0
   - first:
-      213: 1871898622984766933
-    second: Walk Up_1
+      213: -4262505185411342641
+    second: Side Walk Right_1
   - first:
-      213: 7051631850896801670
-    second: Walk Up_2
+      213: -2024923290785242724
+    second: Side Walk Right_2
   - first:
-      213: 3969664895732049593
-    second: Walk Up_3
+      213: -8851219085069793103
+    second: Side Walk Right_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -69,14 +69,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -88,7 +88,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +100,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,7 +112,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk Up_0
+      name: Side Walk Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31c5d7b8d90212b90800000000000000
-      internalID: -7268492462577066989
+      spriteID: 94cf2caa035787680800000000000000
+      internalID: -8757120623538144183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk Up_1
+      name: Side Walk Right_1
       rect:
         serializedVersion: 2
         x: 953
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d5cc8e31e15af910800000000000000
-      internalID: 1871898622984766933
+      spriteID: fcedb4a1e1a88d4c0800000000000000
+      internalID: -4262505185411342641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk Up_2
+      name: Side Walk Right_2
       rect:
         serializedVersion: 2
         x: 1906
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68fb887aecd6cd160800000000000000
-      internalID: 7051631850896801670
+      spriteID: c91a45bdef606e3e0800000000000000
+      internalID: -2024923290785242724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk Up_3
+      name: Side Walk Right_3
       rect:
         serializedVersion: 2
         x: 2859
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b66273c035171730800000000000000
-      internalID: 3969664895732049593
+      spriteID: 1b8c14d43272a2580800000000000000
+      internalID: -8851219085069793103
       vertices: []
       indices: 
       edges: []
@@ -209,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a63ae1b532e4d3c49beb6b2bfb928079
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -217,7 +217,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
   spritePackingTag: 
-  pSDRemoveMatte: 1
+  pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 

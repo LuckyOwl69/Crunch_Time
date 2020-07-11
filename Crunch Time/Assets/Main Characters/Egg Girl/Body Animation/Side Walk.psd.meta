@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 3a2052b291a1b9f4ea62df74df73555f
 TextureImporter:
   internalIDToNameTable:
@@ -15,11 +14,6 @@ TextureImporter:
   - first:
       213: 8050064035711577859
     second: Side Walk_3
-=======
-guid: 6c0d7f5108547fa41adb368fc672aff1
-TextureImporter:
-  internalIDToNameTable: []
->>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -54,24 +48,16 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< Updated upstream
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   spritePixelsToUnits: 400
-=======
-  spritePixelsToUnits: 100
->>>>>>> Stashed changes
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,27 +69,50 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -197,15 +206,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-=======
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
->>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 842eb40e596f12742a875ee8505f9c92
     internalID: 0
     vertices: []
     indices: 
@@ -213,12 +217,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-<<<<<<< Updated upstream
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
-=======
-  pSDShowRemoveMatteOption: 0
->>>>>>> Stashed changes
   userData: 
   assetBundleName: 
   assetBundleVariant: 
