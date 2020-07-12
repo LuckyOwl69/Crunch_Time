@@ -1,0 +1,632 @@
+fileFormatVersion: 2
+guid: aeac1cfa49e374840b3e12c4273e6867
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8418844840375821768
+    second: Knife Face Animation_0
+  - first:
+      213: 3624136865862251718
+    second: Knife Face Animation_1
+  - first:
+      213: 4444421339813747488
+    second: Knife Face Animation_2
+  - first:
+      213: -1201013732680100902
+    second: Knife Face Animation_3
+  - first:
+      213: -2422735261841701815
+    second: Knife Face Animation_4
+  - first:
+      213: -2888540956922369942
+    second: Knife Face Animation_5
+  - first:
+      213: -6625291875527209176
+    second: Knife Face Animation_6
+  - first:
+      213: -5534652866661675827
+    second: Knife Face Animation_7
+  - first:
+      213: -6987207596679507047
+    second: Knife Face Animation_8
+  - first:
+      213: 22703222036762022
+    second: Knife Face Animation_9
+  - first:
+      213: 7611100121763921786
+    second: Knife Face Animation_10
+  - first:
+      213: -4603240975812746216
+    second: Knife Face Animation_11
+  - first:
+      213: -701833052057974066
+    second: Knife Face Animation_12
+  - first:
+      213: -5093716766051104085
+    second: Knife Face Animation_13
+  - first:
+      213: -8625444962390720176
+    second: Knife Face Animation_14
+  - first:
+      213: -1767645516047396774
+    second: Knife Face Animation_15
+  - first:
+      213: -6724059068419625771
+    second: Knife Face Animation_16
+  - first:
+      213: -3202729741023184214
+    second: Knife Face Animation_17
+  - first:
+      213: 2713085171329512909
+    second: Knife Face Animation_18
+  - first:
+      213: 854107333216063939
+    second: Knife Face Animation_19
+  - first:
+      213: -7816461784974619037
+    second: Knife Face Animation_20
+  - first:
+      213: 5950481123720042636
+    second: Knife Face Animation_21
+  - first:
+      213: 3303451953085313061
+    second: Knife Face Animation_22
+  - first:
+      213: 5997346904306082329
+    second: Knife Face Animation_23
+  - first:
+      213: -6526082575553438512
+    second: Knife Face Animation_24
+  - first:
+      213: -6080687417099291769
+    second: Knife Face Animation_25
+  - first:
+      213: -7862320898688329970
+    second: Knife Face Animation_26
+  - first:
+      213: -3256575204163370317
+    second: Knife Face Animation_27
+  - first:
+      213: 6852104418691554766
+    second: Knife Face Animation_28
+  - first:
+      213: -4522191956664802985
+    second: Knife Face Animation_29
+  - first:
+      213: 421153876527447270
+    second: Knife Face Animation_30
+  - first:
+      213: 1764997764232909860
+    second: Knife Face Animation_31
+  - first:
+      213: 2093198800678573543
+    second: Knife Face Animation_32
+  - first:
+      213: -4328187742301683961
+    second: Knife Face Animation_33
+  - first:
+      213: 493537497924527684
+    second: Knife Face Animation_34
+  - first:
+      213: -8516478021736827754
+    second: Knife Face Animation_35
+  - first:
+      213: 1744483798861338974
+    second: Knife Face Animation_36
+  - first:
+      213: -1970788297899796350
+    second: Knife Face Animation_37
+  - first:
+      213: 1489570454989700403
+    second: Knife Face Animation_38
+  - first:
+      213: -8601109407837416542
+    second: Knife Face Animation_39
+  - first:
+      213: -6574768588853110115
+    second: Knife Face Animation_40
+  - first:
+      213: -4202128285378746940
+    second: Knife Face Animation_41
+  - first:
+      213: 431189296013418745
+    second: Knife Face Animation_42
+  - first:
+      213: -2077586560188396194
+    second: Knife Face Animation_43
+  - first:
+      213: 7622690327257220609
+    second: Knife Face Animation_44
+  - first:
+      213: -5380358781017911645
+    second: Knife Face Animation_45
+  - first:
+      213: 2102829612959021779
+    second: Knife Face Animation_46
+  - first:
+      213: 2706363337609334098
+    second: Knife Face Animation_47
+  - first:
+      213: 8306351880483497942
+    second: Knife Face Animation_48
+  - first:
+      213: -3820696715056952585
+    second: Knife Face Animation_49
+  - first:
+      213: -3777427086204879382
+    second: Knife Face Animation_50
+  - first:
+      213: 4755050402571636802
+    second: Knife Face Animation_51
+  - first:
+      213: -4179872203083283634
+    second: Knife Face Animation_52
+  - first:
+      213: 2824940333662441549
+    second: Knife Face Animation_53
+  - first:
+      213: -1336392068979762399
+    second: Knife Face Animation_54
+  - first:
+      213: 4160275099198232207
+    second: Knife Face Animation_55
+  - first:
+      213: -5944462468696661360
+    second: Knife Face Animation_56
+  - first:
+      213: -3033176342418495598
+    second: Knife Face Animation_57
+  - first:
+      213: 1848394936233672825
+    second: Knife Face Animation_58
+  - first:
+      213: -9176447436223921407
+    second: Knife Face Animation_59
+  - first:
+      213: 8569414715659329982
+    second: Knife Face Animation_60
+  - first:
+      213: -1955988273891983809
+    second: Knife Face Animation_61
+  - first:
+      213: 5960026346159199583
+    second: Knife Face Animation_62
+  - first:
+      213: -801858422259465922
+    second: Knife Face Animation_63
+  - first:
+      213: 8053273952234379698
+    second: Knife Face Animation_64
+  - first:
+      213: 4447407323636586357
+    second: Knife Face Animation_65
+  - first:
+      213: 1195887711009279454
+    second: Knife Face Animation_66
+  - first:
+      213: 6194966190188364560
+    second: Knife Face Animation_67
+  - first:
+      213: 5770965644341188587
+    second: Knife Face Animation_68
+  - first:
+      213: -221175783988785131
+    second: Knife Face Animation_69
+  - first:
+      213: 4981148574786392188
+    second: Knife Face Animation_70
+  - first:
+      213: -6757845210085556366
+    second: Knife Face Animation_71
+  - first:
+      213: 5651424523599656
+    second: Knife Face Animation_72
+  - first:
+      213: 676568774980027958
+    second: Knife Face Animation_73
+  - first:
+      213: 3943110528851730568
+    second: Knife Face Animation_74
+  - first:
+      213: -6616795061039626937
+    second: Knife Face Animation_75
+  - first:
+      213: 2208933167277999391
+    second: Knife Face Animation_76
+  - first:
+      213: -7637199801770077354
+    second: Knife Face Animation_77
+  - first:
+      213: 1895166812552950279
+    second: Knife Face Animation_78
+  - first:
+      213: -4389631564637151189
+    second: Knife Face Animation_79
+  - first:
+      213: -7710262692374212455
+    second: Knife Face Animation_80
+  - first:
+      213: -2710961947802581848
+    second: Knife Face Animation_81
+  - first:
+      213: -2650310783368428529
+    second: Knife Face Animation_82
+  - first:
+      213: -6240682871056309503
+    second: Knife Face Animation_83
+  - first:
+      213: 7744524003256010331
+    second: Knife Face Animation_84
+  - first:
+      213: -3854090782922051444
+    second: Knife Face Animation_85
+  - first:
+      213: 3074300852708314935
+    second: Knife Face Animation_86
+  - first:
+      213: -4139097070917233845
+    second: Knife Face Animation_87
+  - first:
+      213: 1239287807478112605
+    second: Knife Face Animation_88
+  - first:
+      213: 1427545405861433976
+    second: Knife Face Animation_89
+  - first:
+      213: 1513093538828023592
+    second: Knife Face Animation_90
+  - first:
+      213: -2111212821252560042
+    second: Knife Face Animation_91
+  - first:
+      213: -210373897000299629
+    second: Knife Face Animation_92
+  - first:
+      213: 4200639009371925472
+    second: Knife Face Animation_93
+  - first:
+      213: 930618881642879925
+    second: Knife Face Animation_94
+  - first:
+      213: 7666407122005878146
+    second: Knife Face Animation_95
+  - first:
+      213: -1843686533365660386
+    second: Knife Face Animation_96
+  - first:
+      213: 563247530589312450
+    second: Knife Face Animation_97
+  - first:
+      213: 9191028628347702289
+    second: Knife Face Animation_98
+  - first:
+      213: 1268262562693834325
+    second: Knife Face Animation_99
+  - first:
+      213: 675268437004494932
+    second: Knife Face Animation_100
+  - first:
+      213: -4055564091928771002
+    second: Knife Face Animation_101
+  - first:
+      213: -3788640244839252950
+    second: Knife Face Animation_102
+  - first:
+      213: 7105890467682675531
+    second: Knife Face Animation_103
+  - first:
+      213: -1376810635252117255
+    second: Knife Face Animation_104
+  - first:
+      213: 1080390446893736704
+    second: Knife Face Animation_105
+  - first:
+      213: -2088977083545658223
+    second: Knife Face Animation_106
+  - first:
+      213: -7234095013745039561
+    second: Knife Face Animation_107
+  - first:
+      213: -7916040938544483156
+    second: Knife Face Animation_108
+  - first:
+      213: 5667569226725347681
+    second: Knife Face Animation_109
+  - first:
+      213: 2289890949976318085
+    second: Knife Face Animation_110
+  - first:
+      213: -1305747504108224417
+    second: Knife Face Animation_111
+  - first:
+      213: -619791610570125327
+    second: Knife Face Animation_112
+  - first:
+      213: -5921552181322361727
+    second: Knife Face Animation_113
+  - first:
+      213: -2340171498208137669
+    second: Knife Face Animation_114
+  - first:
+      213: -4155557085328641008
+    second: Knife Face Animation_115
+  - first:
+      213: 1717635866050225488
+    second: Knife Face Animation_116
+  - first:
+      213: 3490292050420544958
+    second: Knife Face Animation_117
+  - first:
+      213: -4202231299853370038
+    second: Knife Face Animation_118
+  - first:
+      213: -2074291002918327047
+    second: Knife Face Animation_119
+  - first:
+      213: -3691734573212381566
+    second: Knife Face Animation_120
+  - first:
+      213: 8161378387333100345
+    second: Knife Face Animation_121
+  - first:
+      213: -6998825384819113830
+    second: Knife Face Animation_122
+  - first:
+      213: -3362054388626539676
+    second: Knife Face Animation_123
+  - first:
+      213: -3505196449208853317
+    second: Knife Face Animation_124
+  - first:
+      213: 8637075148810589126
+    second: Knife Face Animation_125
+  - first:
+      213: -2207645787814557660
+    second: Knife Face Animation_126
+  - first:
+      213: 80256297659756297
+    second: Knife Face Animation_127
+  - first:
+      213: -195057767549786671
+    second: Knife Face Animation_128
+  - first:
+      213: 6610003502175965170
+    second: Knife Face Animation_129
+  - first:
+      213: 4258272313155427719
+    second: Knife Face Animation_130
+  - first:
+      213: -2924906610939346842
+    second: Knife Face Animation_131
+  - first:
+      213: 7657469049879586644
+    second: Knife Face Animation_132
+  - first:
+      213: 6679321819446483646
+    second: Knife Face Animation_133
+  - first:
+      213: -3733964511753801198
+    second: Knife Face Animation_134
+  - first:
+      213: 1399723479104690570
+    second: Knife Face Animation_135
+  - first:
+      213: 2660077291496290743
+    second: Knife Face Animation_136
+  - first:
+      213: 2923725220943442613
+    second: Knife Face Animation_137
+  - first:
+      213: -6507297062936734653
+    second: Knife Face Animation_138
+  - first:
+      213: 7332993802844305352
+    second: Knife Face Animation_139
+  - first:
+      213: 657392562134737813
+    second: Knife Face Animation_140
+  - first:
+      213: -7989011078922457018
+    second: Knife Face Animation_141
+  - first:
+      213: 4483928937722501793
+    second: Knife Face Animation_142
+  - first:
+      213: 6256457499310282883
+    second: Knife Face Animation_143
+  - first:
+      213: -5192102805449658512
+    second: Knife Face Animation_144
+  - first:
+      213: -4993823818502641181
+    second: Knife Face Animation_145
+  - first:
+      213: -1477158477999421424
+    second: Knife Face Animation_146
+  - first:
+      213: -6653080942026784964
+    second: Knife Face Animation_147
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knife Face Animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 953
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ad44ef8314a2b80800000000000000
+      internalID: -8418844840375821768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knife Face Animation_1
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 0
+        width: 953
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4fd1b27458b4230800000000000000
+      internalID: 3624136865862251718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knife Face Animation_2
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 0
+        width: 953
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b93c739a1cdad30800000000000000
+      internalID: 4444421339813747488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knife Face Animation_3
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 0
+        width: 953
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad39c359f54255fe0800000000000000
+      internalID: -1201013732680100902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
