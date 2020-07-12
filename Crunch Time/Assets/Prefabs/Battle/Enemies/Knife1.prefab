@@ -125,10 +125,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea3b567a91a26ab4e902fa0574d23631, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Spoon
-  unitJob: wants to bound a book
+  unitName: Knife
+  unitJob: needs some help slicing a bunch of paper
   unitLevel: 1
-  damage: 5
-  maxHP: 60
-  currentHP: 60
-  weakness: Stapler
+  damage: 3
+  maxHP: 40
+  currentHP: 40
+  weakness: Scissors

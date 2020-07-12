@@ -747,6 +747,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2342690532279983045, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: aea1d9a92d7c59e4384739f31a18b179, type: 2}
+    - target: {fileID: 2342690532279983047, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1952524978991795440, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1,
+        type: 3}
     - target: {fileID: 2342690532924843833, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
         type: 3}
       propertyPath: m_Name
@@ -856,6 +867,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342690532924843839, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342690532924843839, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342690532924843839, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b00f5de6993e8545b39edb70f7a7c6e, type: 3}
@@ -1609,6 +1635,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Office Rooms Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 6799870561975721758, guid: ba11147cb51dc8840a0c681307da6bb3,
         type: 3}
