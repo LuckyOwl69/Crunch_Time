@@ -36,9 +36,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Office Rooms/Office_Lunch2.unity
     guid: a661cfd15ce705f48a66569a02c432fe
   - enabled: 1
+    path: Assets/Scenes/Office Rooms/Office_Intern.unity
+    guid: f55fa24e745f2124a9b4403941732097
+  - enabled: 1
     path: Assets/Scenes/Battle Scenes/Battle_Hallway 1.unity
     guid: 4653440f7b9c23042a412965597a1f9b
   - enabled: 1
     path: Assets/Scenes/Battle Scenes/Battle_Hallway 2.unity
-    guid: de6c1b47a818da54aa52ee253b3c176f
+    guid: 60f7c05986e992943a69bf8930a5376e
   m_configObjects: {}
