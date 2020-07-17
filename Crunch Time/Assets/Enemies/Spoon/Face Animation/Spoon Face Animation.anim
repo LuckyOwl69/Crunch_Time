@@ -22,6 +22,7 @@ AnimationClip:
     - time: 0
       value: {fileID: -1952524978991795440, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1,
         type: 3}
+<<<<<<< Updated upstream
     - time: 0.25
       value: {fileID: 2693281751665879602, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1,
         type: 3}
@@ -39,6 +40,22 @@ AnimationClip:
     classID: 114
     script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_SampleRate: 60
+=======
+    - time: 0.083333336
+      value: {fileID: 2693281751665879602, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1,
+        type: 3}
+    - time: 0.16666667
+      value: {fileID: -2321769941374560406, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1,
+        type: 3}
+    - time: 0.25
+      value: {fileID: 5958169045780389512, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1,
+        type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 12
+>>>>>>> Stashed changes
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -47,23 +64,37 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
+<<<<<<< Updated upstream
       attribute: 2015549526
       script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
       typeID: 114
       customType: 0
+=======
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+>>>>>>> Stashed changes
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: -1952524978991795440, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1, type: 3}
     - {fileID: 2693281751665879602, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1, type: 3}
     - {fileID: -2321769941374560406, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1, type: 3}
     - {fileID: 5958169045780389512, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1, type: 3}
+<<<<<<< Updated upstream
     - {fileID: -1952524978991795440, guid: 3ba5a504902fc4d4c8b9f0ede9d409a1, type: 3}
+=======
+>>>>>>> Stashed changes
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< Updated upstream
     m_StopTime: 1.0166667
+=======
+    m_StopTime: 0.33333334
+>>>>>>> Stashed changes
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
