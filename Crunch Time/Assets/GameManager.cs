@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -12,7 +13,12 @@ public class GameManager : MonoBehaviour
     public float overworldPosX;
     public float overworldPosY;
 
-    public static float storyState = 1;
+    public static float storyState;
+
+    void Update()
+    {
+        UnityEngine.Debug.Log(storyState);
+    }
 
     void Awake()
     {

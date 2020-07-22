@@ -719,6 +719,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba11147cb51dc8840a0c681307da6bb3, type: 3}
+--- !u!114 &691179161 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4134179228771921316, guid: ba11147cb51dc8840a0c681307da6bb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 691179160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &691179162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6618322632807785558, guid: ba11147cb51dc8840a0c681307da6bb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 691179160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &927848656 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6799870563158535953, guid: ba11147cb51dc8840a0c681307da6bb3,
@@ -1331,6 +1355,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7303851717792091522, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 691179162}
+    - target: {fileID: 7303851717792091522, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: questDescription
+      value: 
+      objectReference: {fileID: 691179161}
+    - target: {fileID: 7303851717792091522, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1905699184}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 578051969e798ad47ac9ee19501ec893, type: 3}
 --- !u!1001 &1586429714
@@ -2073,7 +2112,7 @@ PrefabInstance:
     - target: {fileID: 7544328674548569844, guid: f064d7f64609b2d4dbfd2347cf7ab3ba,
         type: 3}
       propertyPath: inRoomWithBattles
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7544328674548569844, guid: f064d7f64609b2d4dbfd2347cf7ab3ba,
         type: 3}

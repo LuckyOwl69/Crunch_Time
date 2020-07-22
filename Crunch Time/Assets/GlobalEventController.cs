@@ -11,14 +11,23 @@ public class GlobalEventController : MonoBehaviour
 
     public float newStoryState;
 
-    //public GameManager gameManager;
+    //public float storyState;
 
-    void OnTriggerStay2D(Collider2D collision)
+    public GameManager gameManager;
+
+    void Start()
     {
-        if (GameManager.storyState < maxStoryState && GameManager.storyState >= minStoryState) 
+        //storyState = GameManager.storyState;
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (Input.GetKey(KeyCode.E)) 
         {
-            GameManager.storyState = newStoryState;
+            if (GameManager.storyState >= minStoryState && GameManager.storyState < maxStoryState)
+            {
+                GameManager.storyState = newStoryState;
+            }
         }
-            
     }
 }
