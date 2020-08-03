@@ -6,6 +6,10 @@ public class QuestInformationHandler : MonoBehaviour
 {
     public Animator questWindowAnimator;
 
+    
+    public bool hasNewQuest;
+
+    public GameObject questWindowNotification;
 
 
 
@@ -19,13 +23,25 @@ public class QuestInformationHandler : MonoBehaviour
         questWindowAnimator.SetBool("IsOpen", false);
     }
 
-    void FixedUpdate()
+
+
+
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (hasNewQuest == true)
+        {
+            questWindowNotification.gameObject.SetActive(true);
+        }
+
+        if (Input.GetKey(KeyCode.Q))
         {
             OpenQuestWindow();
+            hasNewQuest = false;
+            questWindowNotification.gameObject.SetActive(false);
+
+
         }
-        
+
         if (Input.GetKeyUp(KeyCode.Q))
         {
             CloseQuestWindow();

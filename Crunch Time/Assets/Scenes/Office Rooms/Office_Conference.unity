@@ -559,6 +559,11 @@ PrefabInstance:
       propertyPath: dialogueBoxAnimator
       value: 
       objectReference: {fileID: 1602879172}
+    - target: {fileID: 1065205151759376977, guid: 59ac2b01a04cc6f4691fd1abd7ebf49e,
+        type: 3}
+      propertyPath: talkButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1350489768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59ac2b01a04cc6f4691fd1abd7ebf49e, type: 3}
 --- !u!1001 &1460909354046889652
@@ -788,6 +793,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
       propertyPath: dialogue.name
       value: Muffin
       objectReference: {fileID: 0}
@@ -795,6 +810,16 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
       value: Welcome to the Conference Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].name
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542955460059123460, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
+      value: 2w
       objectReference: {fileID: 0}
     - target: {fileID: 5542955460059123461, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}

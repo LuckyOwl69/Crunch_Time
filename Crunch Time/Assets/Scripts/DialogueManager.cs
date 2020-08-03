@@ -16,13 +16,14 @@ public class DialogueManager : MonoBehaviour
 
     public Animator dialogueBoxAnimator;
     public Animator npcFaceAnimator;
+    public Animator playerFaceAnimator;
 
     //public List<TalkIconController> NPCPrefabs;
 
     //public bool battleTime;
     //public string battleScene;
 
-    public List<GameObject> talkButtons;
+    public GameObject talkButton;
 
     private bool _isTalking;
 
@@ -54,13 +55,14 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        foreach (GameObject talkButton in talkButtons)
-        {
+        //foreach (GameObject talkButton in talkButtons)
+        //{
             talkButton.gameObject.SetActive(false);
-        }
+        //}
 
         dialogueBoxAnimator.SetBool("IsOpen", true);
         npcFaceAnimator.SetBool("IsOpen", true);
+        playerFaceAnimator.SetBool("IsOpen", true);
 
         _isTalking = true;
 
@@ -107,10 +109,10 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        foreach (GameObject talkButton in talkButtons)
-        {
-
-        }
+        //foreach (GameObject talkButton in talkButtons)
+        //{
+            talkButton.gameObject.SetActive(true);
+        //}
 
         
 
@@ -119,6 +121,7 @@ public class DialogueManager : MonoBehaviour
 
         dialogueBoxAnimator.SetBool("IsOpen", false);
         npcFaceAnimator.SetBool("IsOpen", false);
+        playerFaceAnimator.SetBool("IsOpen", false);
 
         _isTalking = false;
     }

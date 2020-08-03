@@ -46,4 +46,6 @@ MonoBehaviour:
   currentSpeakerText: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogueBoxAnimator: {fileID: 0}
-  talkButtons: []
+  npcFaceAnimator: {fileID: 0}
+  talkButtons:
+  - {fileID: 0}
