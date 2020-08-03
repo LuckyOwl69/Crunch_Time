@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: e29029172622812468523ab5ff88d9bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2627242260956476087
+    second: Egg Girl Face with Blinking Animation_0
+  - first:
+      213: 806024972369495575
+    second: Egg Girl Face with Blinking Animation_1
+  - first:
+      213: 8476643177871723524
+    second: Egg Girl Face with Blinking Animation_2
+  - first:
+      213: -1416540512706489791
+    second: Egg Girl Face with Blinking Animation_3
+  - first:
+      213: -3274932263470664985
+    second: Egg Girl Face with Blinking Animation_4
+  - first:
+      213: -500279716487419428
+    second: Egg Girl Face with Blinking Animation_5
+  - first:
+      213: -8304347083163440364
+    second: Egg Girl Face with Blinking Animation_6
+  - first:
+      213: 6292530889783441262
+    second: Egg Girl Face with Blinking Animation_7
+  - first:
+      213: 6770380297206946444
+    second: Egg Girl Face with Blinking Animation_8
+  - first:
+      213: 3677097383924322557
+    second: Egg Girl Face with Blinking Animation_9
+  - first:
+      213: -600850200677000274
+    second: Egg Girl Face with Blinking Animation_10
+  - first:
+      213: -660028635720525129
+    second: Egg Girl Face with Blinking Animation_11
+  - first:
+      213: 327062189975858256
+    second: Egg Girl Face with Blinking Animation_12
+  - first:
+      213: -2675673863431477636
+    second: Egg Girl Face with Blinking Animation_13
+  - first:
+      213: -2492114858234985069
+    second: Egg Girl Face with Blinking Animation_14
+  - first:
+      213: 6813643222834439707
+    second: Egg Girl Face with Blinking Animation_15
+  - first:
+      213: -3617838010706366501
+    second: Egg Girl Face with Blinking Animation_16
+  - first:
+      213: -1864822635878061011
+    second: Egg Girl Face with Blinking Animation_17
+  - first:
+      213: 1984368717871115400
+    second: Egg Girl Face with Blinking Animation_18
+  - first:
+      213: 192594830576658860
+    second: Egg Girl Face with Blinking Animation_19
+  - first:
+      213: -3384304177676801453
+    second: Egg Girl Face with Blinking Animation_20
+  - first:
+      213: -2972872034353828806
+    second: Egg Girl Face with Blinking Animation_21
+  - first:
+      213: -628417778230331017
+    second: Egg Girl Face with Blinking Animation_22
+  - first:
+      213: -4098590647107081907
+    second: Egg Girl Face with Blinking Animation_23
+  - first:
+      213: -7629682298195622701
+    second: Egg Girl Face with Blinking Animation_24
+  - first:
+      213: -4837558406091259923
+    second: Egg Girl Face with Blinking Animation_25
+  - first:
+      213: 1292148962236879282
+    second: Egg Girl Face with Blinking Animation_26
+  - first:
+      213: -2785604539615197515
+    second: Egg Girl Face with Blinking Animation_27
+  - first:
+      213: -6052357391085499936
+    second: Egg Girl Face with Blinking Animation_28
+  - first:
+      213: 5044246734489734012
+    second: Egg Girl Face with Blinking Animation_29
+  - first:
+      213: 9046249703654977758
+    second: Egg Girl Face with Blinking Animation_30
+  - first:
+      213: 272924439299698980
+    second: Egg Girl Face with Blinking Animation_31
+  - first:
+      213: -3813124562586470103
+    second: Egg Girl Face with Blinking Animation_32
+  - first:
+      213: 834900718045700135
+    second: Egg Girl Face with Blinking Animation_33
+  - first:
+      213: 2302559107988037142
+    second: Egg Girl Face with Blinking Animation_34
+  - first:
+      213: 2380780858931270566
+    second: Egg Girl Face with Blinking Animation_35
+  - first:
+      213: 7666922854045007460
+    second: Egg Girl Face with Blinking Animation_36
+  - first:
+      213: 7450904971622678840
+    second: Egg Girl Face with Blinking Animation_37
+  - first:
+      213: 1652806095065826906
+    second: Egg Girl Face with Blinking Animation_38
+  - first:
+      213: 6747680010593604642
+    second: Egg Girl Face with Blinking Animation_39
+  - first:
+      213: -8946440731819385994
+    second: Egg Girl Face with Blinking Animation_40
+  - first:
+      213: -2412311490622502434
+    second: Egg Girl Face with Blinking Animation_41
+  - first:
+      213: 6707226253282937670
+    second: Egg Girl Face with Blinking Animation_42
+  - first:
+      213: 8335508087746680657
+    second: Egg Girl Face with Blinking Animation_43
+  - first:
+      213: 4186395654424400438
+    second: Egg Girl Face with Blinking Animation_44
+  - first:
+      213: 5157482839449434464
+    second: Egg Girl Face with Blinking Animation_45
+  - first:
+      213: 8154077486793330815
+    second: Egg Girl Face with Blinking Animation_46
+  - first:
+      213: -7589852430660871975
+    second: Egg Girl Face with Blinking Animation_47
+  - first:
+      213: 5374122823144092323
+    second: Egg Girl Face with Blinking Animation_48
+  - first:
+      213: 2627175617733304592
+    second: Egg Girl Face with Blinking Animation_49
+  - first:
+      213: 5194710228671688730
+    second: Egg Girl Face with Blinking Animation_50
+  - first:
+      213: 6905306797895432631
+    second: Egg Girl Face with Blinking Animation_51
+  - first:
+      213: 3141689295230162803
+    second: Egg Girl Face with Blinking Animation_52
+  - first:
+      213: -6633834534217059184
+    second: Egg Girl Face with Blinking Animation_53
+  - first:
+      213: 6131506079699164784
+    second: Egg Girl Face with Blinking Animation_54
+  - first:
+      213: 1888620071168340957
+    second: Egg Girl Face with Blinking Animation_55
+  - first:
+      213: -8869099314925381248
+    second: Egg Girl Face with Blinking Animation_56
+  - first:
+      213: 248436458833661366
+    second: Egg Girl Face with Blinking Animation_57
+  - first:
+      213: 680205925511940742
+    second: Egg Girl Face with Blinking Animation_58
+  - first:
+      213: 6529214892695783840
+    second: Egg Girl Face with Blinking Animation_59
+  - first:
+      213: 6974005041087927970
+    second: Egg Girl Face with Blinking Animation_60
+  - first:
+      213: 782776983466615580
+    second: Egg Girl Face with Blinking Animation_61
+  - first:
+      213: 4690086285777860990
+    second: Egg Girl Face with Blinking Animation_62
+  - first:
+      213: -233424548496864096
+    second: Egg Girl Face with Blinking Animation_63
+  - first:
+      213: -4021447322195252778
+    second: Egg Girl Face with Blinking Animation_64
+  - first:
+      213: 4837994200758007223
+    second: Egg Girl Face with Blinking Animation_65
+  - first:
+      213: -5652226815040306185
+    second: Egg Girl Face with Blinking Animation_66
+  - first:
+      213: -8597304544975121221
+    second: Egg Girl Face with Blinking Animation_67
+  - first:
+      213: 2572689780450937125
+    second: Egg Girl Face with Blinking Animation_68
+  - first:
+      213: -1513783141793951734
+    second: Egg Girl Face with Blinking Animation_69
+  - first:
+      213: 3389366336534470587
+    second: Egg Girl Face with Blinking Animation_70
+  - first:
+      213: -884050142303336539
+    second: Egg Girl Face with Blinking Animation_71
+  - first:
+      213: 4692438921188969676
+    second: Egg Girl Face with Blinking Animation_72
+  - first:
+      213: 2970125472608964940
+    second: Egg Girl Face with Blinking Animation_73
+  - first:
+      213: -9170389755374715301
+    second: Egg Girl Face with Blinking Animation_74
+  - first:
+      213: 5355621760127027189
+    second: Egg Girl Face with Blinking Animation_75
+  - first:
+      213: -8053429351004630368
+    second: Egg Girl Face with Blinking Animation_76
+  - first:
+      213: 2986215448066229803
+    second: Egg Girl Face with Blinking Animation_77
+  - first:
+      213: 152487993396849750
+    second: Egg Girl Face with Blinking Animation_78
+  - first:
+      213: 1543176880131322982
+    second: Egg Girl Face with Blinking Animation_79
+  - first:
+      213: -2064508598227859633
+    second: Egg Girl Face with Blinking Animation_80
+  - first:
+      213: 5161314604816768286
+    second: Egg Girl Face with Blinking Animation_81
+  - first:
+      213: 7732500585204567457
+    second: Egg Girl Face with Blinking Animation_82
+  - first:
+      213: -339884139546450575
+    second: Egg Girl Face with Blinking Animation_83
+  - first:
+      213: 8459574943808254301
+    second: Egg Girl Face with Blinking Animation_84
+  - first:
+      213: 2693986556087007385
+    second: Egg Girl Face with Blinking Animation_85
+  - first:
+      213: 7493195653283870830
+    second: Egg Girl Face with Blinking Animation_86
+  - first:
+      213: -3778270731833491709
+    second: Egg Girl Face with Blinking Animation_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b27437aae6d57420800000000000000
+      internalID: 2627242260956476087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_1
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7168d2e11739f2b00800000000000000
+      internalID: 806024972369495575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_2
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c48c02f0613a570800000000000000
+      internalID: 8476643177871723524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_3
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1421e2aa8ef675ce0800000000000000
+      internalID: -1416540512706489791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_4
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e27d5c257a1d82d0800000000000000
+      internalID: -3274932263470664985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_5
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd92f6a9f36ae09f0800000000000000
+      internalID: -500279716487419428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_6
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bed70835801cc80800000000000000
+      internalID: -8304347083163440364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg Girl Face with Blinking Animation_7
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67f6b7418f835750800000000000000
+      internalID: 6292530889783441262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
