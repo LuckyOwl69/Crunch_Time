@@ -13,17 +13,21 @@ public class ExitController : MonoBehaviour
     public float NextScenePositionX;
     public float NextScenePositionY;
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(NextScene);
-            //SceneManager.LoadScene('"' + NextScene.name + '"');
+            if(Input.GetKeyUp(KeyCode.E))
+                {
+                SceneManager.LoadScene(NextScene);
+                //SceneManager.LoadScene('"' + NextScene.name + '"');
 
-            GameManager.overworldPos.x = NextScenePositionX;
-            GameManager.overworldPos.y = NextScenePositionY;
+                GameManager.overworldPos.x = NextScenePositionX;
+                GameManager.overworldPos.y = NextScenePositionY;
 
-            //GameManager.storyState = currentStoryState;
+                //GameManager.storyState = currentStoryState;
+                }
+
         }
     }
 }

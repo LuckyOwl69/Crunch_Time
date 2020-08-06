@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4046726363958572905}
-  - component: {fileID: 7303851717792091522}
+  - component: {fileID: 5533064388553883328}
   m_Layer: 0
   m_Name: Quest Handler
   m_TagString: Untagged
@@ -283,7 +283,7 @@ Transform:
   m_Father: {fileID: 1460909354802986144}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7303851717792091522
+--- !u!114 &5533064388553883328
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -292,9 +292,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 9145648778407210416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4093ed648037a8e45a74a79a6eee14e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 802fbc1ecb79a254b879c35c7d3ebd22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   questName: {fileID: 0}
-  questDescription: {fileID: 0}
-  gameManager: {fileID: 0}
+  questInformation: {fileID: 0}
+  storyState: 1
+  newQuestName: Hi
+  newQuestInformation: 

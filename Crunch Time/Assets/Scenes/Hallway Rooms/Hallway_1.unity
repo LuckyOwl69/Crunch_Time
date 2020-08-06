@@ -1424,21 +1424,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7303851717792091522, guid: 578051969e798ad47ac9ee19501ec893,
+    - target: {fileID: 5533064388553883328, guid: 578051969e798ad47ac9ee19501ec893,
         type: 3}
       propertyPath: questName
       value: 
       objectReference: {fileID: 691179162}
-    - target: {fileID: 7303851717792091522, guid: 578051969e798ad47ac9ee19501ec893,
+    - target: {fileID: 5533064388553883328, guid: 578051969e798ad47ac9ee19501ec893,
         type: 3}
-      propertyPath: questDescription
+      propertyPath: questInformation
       value: 
       objectReference: {fileID: 691179161}
-    - target: {fileID: 7303851717792091522, guid: 578051969e798ad47ac9ee19501ec893,
-        type: 3}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 1905699184}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 578051969e798ad47ac9ee19501ec893, type: 3}
 --- !u!1001 &1586429714
@@ -1708,10 +1703,10 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -14.56267, y: 5.1392603}
       - {x: -14.446909, y: -7.7968645}
-      - {x: -1.8541679, y: -7.8942423}
-      - {x: -1.829565, y: -3.3678315}
-      - {x: 0.385746, y: -3.3238742}
-      - {x: 0.47489738, y: -7.732869}
+      - {x: -1.0707798, y: -7.876438}
+      - {x: -1.0461807, y: -3.314419}
+      - {x: 1.0979156, y: -3.30607}
+      - {x: 1.0802402, y: -7.857499}
       - {x: 16.908327, y: -7.8180876}
       - {x: 16.830761, y: 5.2384996}
 --- !u!1 &1865664369
@@ -1825,7 +1820,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overworldPosX: 1
-  overworldPosY: 1
+  overworldPosY: 17
+  questInformation: {fileID: 0}
 --- !u!4 &1905699185
 Transform:
   m_ObjectHideFlags: 0
@@ -1851,7 +1847,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c5d18620065057d4c869ad0a5f71dc5e,
+      objectReference: {fileID: 21300000, guid: d562906f132b185418ca6572227d9198,
         type: 3}
     - target: {fileID: 5655806521742298776, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
@@ -2076,7 +2072,7 @@ PrefabInstance:
     - target: {fileID: 7116238672411836087, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.58
+      value: -23.84
       objectReference: {fileID: 0}
     - target: {fileID: 7116238672411836087, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
@@ -2181,7 +2177,7 @@ PrefabInstance:
     - target: {fileID: 7544328674548569844, guid: f064d7f64609b2d4dbfd2347cf7ab3ba,
         type: 3}
       propertyPath: inRoomWithBattles
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7544328674548569844, guid: f064d7f64609b2d4dbfd2347cf7ab3ba,
         type: 3}
