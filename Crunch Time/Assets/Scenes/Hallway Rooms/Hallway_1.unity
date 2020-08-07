@@ -243,7 +243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: Office_Lunch
-  GameManagerObject: {fileID: 1905699184}
+  useIndicator: {fileID: 0}
+  transitionAnimation: {fileID: 0}
   NextScenePositionX: 7.13
   NextScenePositionY: 0.21
 --- !u!61 &175314797
@@ -625,7 +626,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: Hallway_2
-  GameManagerObject: {fileID: 1905699184}
+  useIndicator: {fileID: 0}
+  transitionAnimation: {fileID: 0}
   NextScenePositionX: 0
   NextScenePositionY: 17.2
 --- !u!61 &658252699
@@ -824,6 +826,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &691179163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5208526770522650832, guid: ba11147cb51dc8840a0c681307da6bb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 691179160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &691179164 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4947676705447420749, guid: ba11147cb51dc8840a0c681307da6bb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 691179160}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &804094256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,7 +1423,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: Office_Boss
-  GameManagerObject: {fileID: 1905699184}
+  useIndicator: {fileID: 691179163}
+  transitionAnimation: {fileID: 691179164}
   NextScenePositionX: 7.13
   NextScenePositionY: 0.21
 --- !u!61 &1179065318
@@ -1646,7 +1661,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: Office_Printing
-  GameManagerObject: {fileID: 1905699184}
+  useIndicator: {fileID: 0}
+  transitionAnimation: {fileID: 0}
   NextScenePositionX: 7.13
   NextScenePositionY: 0.21
 --- !u!61 &1345020621
@@ -1835,6 +1851,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2944880944471224752, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: questName
+      value: 
+      objectReference: {fileID: 691179162}
+    - target: {fileID: 2944880944471224752, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: questInformation
+      value: 
+      objectReference: {fileID: 691179161}
     - target: {fileID: 5533064388553883328, guid: 578051969e798ad47ac9ee19501ec893,
         type: 3}
       propertyPath: questName
@@ -2313,7 +2339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overworldPosX: 1
   overworldPosY: 17
-  questInformation: {fileID: 0}
 --- !u!4 &1905699185
 Transform:
   m_ObjectHideFlags: 0

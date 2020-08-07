@@ -27,6 +27,7 @@ public class QuestInformationChanger : MonoBehaviour
         if (GameManager.storyState == storyState)
         {
             questName.text = newQuestName;
+            questInformation.text = newQuestInformation;
         }
     }
 }

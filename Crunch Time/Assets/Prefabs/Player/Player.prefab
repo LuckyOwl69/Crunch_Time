@@ -262,6 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4046726363958572905}
   - component: {fileID: 5533064388553883328}
+  - component: {fileID: 2944880944471224752}
   m_Layer: 0
   m_Name: Quest Handler
   m_TagString: Untagged
@@ -297,6 +298,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questName: {fileID: 0}
   questInformation: {fileID: 0}
+  storyState: 0
+  newQuestName: A Brave New World
+  newQuestInformation: Go talk to the Boss. He's right in front of you.
+--- !u!114 &2944880944471224752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9145648778407210416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802fbc1ecb79a254b879c35c7d3ebd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: {fileID: 0}
+  questInformation: {fileID: 0}
   storyState: 1
-  newQuestName: Hi
-  newQuestInformation: 
+  newQuestName: Break Time
+  newQuestInformation: Go get the boss some coffee

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6402893310129683731}
   - component: {fileID: 6402893310129683730}
   m_Layer: 0
-  m_Name: Boss_1
+  m_Name: NPC_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,19 @@ MonoBehaviour:
   myMinStoryState: 1
   myMaxStoryState: 2
   NPC: {fileID: 6402893311324805653}
-  gameManager: {fileID: 0}
+--- !u!114 &363415568779666417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6402893311324805653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24cc02f4a937c364387edbed76c08843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newStoryState: 1
 --- !u!1001 &1456682574551160084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55,6 +67,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6402893310129683731}
     m_Modifications:
+    - target: {fileID: 804708112462695454, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254988915389906616, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6635016
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254988915389906616, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6635016
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254988915389906616, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6635016
+      objectReference: {fileID: 0}
     - target: {fileID: 5542955460059123456, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -216,6 +248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playerSprite
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6528509376730097382, guid: 8f61ede5cf57e294ba38c8737353b840,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f61ede5cf57e294ba38c8737353b840, type: 3}

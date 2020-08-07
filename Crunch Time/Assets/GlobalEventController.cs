@@ -32,6 +32,7 @@ public class GlobalEventController : MonoBehaviour
         if (Input.GetKey(KeyCode.E) && GameManager.storyState < newStoryState) 
         {
             GameManager.storyState = newStoryState;
+            GameManager.hasNewQuest = true;
 
         }
     }

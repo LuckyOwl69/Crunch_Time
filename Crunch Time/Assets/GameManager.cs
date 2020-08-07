@@ -16,11 +16,12 @@ public class GameManager : MonoBehaviour
 
     public static float storyState;
 
-    public Text questInformation;
+    public static bool hasNewQuest;
 
     void Update()
     {
         UnityEngine.Debug.Log(storyState);
+        UnityEngine.Debug.Log(hasNewQuest);
     }
 
     void Awake()
@@ -32,6 +33,8 @@ public class GameManager : MonoBehaviour
             //set overworld positions
             overworldPos.x = overworldPosX;
             overworldPos.y = overworldPosY;
+
+            hasNewQuest = hasNewQuest;
 
             instance = this;
             DontDestroyOnLoad(this.gameObject);
