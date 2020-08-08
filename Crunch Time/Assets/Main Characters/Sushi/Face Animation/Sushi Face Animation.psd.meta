@@ -14,6 +14,30 @@ TextureImporter:
   - first:
       213: -7686636013329214416
     second: Sushi Face Animation_3
+  - first:
+      213: -2839766711553210596
+    second: Sushi Face Animation_0
+  - first:
+      213: 1403732352989461688
+    second: Sushi Face Animation_1
+  - first:
+      213: -4200619402870025358
+    second: Sushi Face Animation_2
+  - first:
+      213: -3876358704111595354
+    second: Sushi Face Animation_3
+  - first:
+      213: -7677833159181273735
+    second: Sushi Face Animation_4
+  - first:
+      213: -9154007083425038802
+    second: Sushi Face Animation_5
+  - first:
+      213: -2525193155729934167
+    second: Sushi Face Animation_6
+  - first:
+      213: 5021235935388705209
+    second: Sushi Face Animation_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,7 +128,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 953
+        width: 953.75
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -113,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09506d2ad66fe8f20800000000000000
-      internalID: 3426947317219329424
+      spriteID: c1744e8b83f1798d0800000000000000
+      internalID: -2839766711553210596
       vertices: []
       indices: 
       edges: []
@@ -125,7 +149,7 @@ TextureImporter:
         serializedVersion: 2
         x: 953
         y: 0
-        width: 953
+        width: 953.75
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5cbadde4b240c210800000000000000
-      internalID: 1351153233063230558
+      spriteID: 8bcf8a3432f0b7310800000000000000
+      internalID: 1403732352989461688
       vertices: []
       indices: 
       edges: []
@@ -146,7 +170,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1906
         y: 0
-        width: 953
+        width: 953.75
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cad13d93af94d77c0800000000000000
-      internalID: -4072017149012271700
+      spriteID: 273915fa8e664b5c0800000000000000
+      internalID: -4200619402870025358
       vertices: []
       indices: 
       edges: []
@@ -167,7 +191,7 @@ TextureImporter:
         serializedVersion: 2
         x: 2859
         y: 0
-        width: 953
+        width: 953.75
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,8 +200,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03499cb7545935590800000000000000
-      internalID: -7686636013329214416
+      spriteID: 6a05f63eb48643ac0800000000000000
+      internalID: -3876358704111595354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushi Face Animation_4
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 0
+        width: 953.75
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975f84eab6bd27590800000000000000
+      internalID: -7677833159181273735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushi Face Animation_5
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 0
+        width: 953.75
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e7a01ce0f66f080800000000000000
+      internalID: -9154007083425038802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushi Face Animation_6
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 0
+        width: 953.75
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a838733436b4fcd0800000000000000
+      internalID: -2525193155729934167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushi Face Animation_7
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 0
+        width: 953.75
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b12546ca730fa540800000000000000
+      internalID: 5021235935388705209
       vertices: []
       indices: 
       edges: []

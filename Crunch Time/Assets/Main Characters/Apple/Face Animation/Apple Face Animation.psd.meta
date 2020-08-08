@@ -14,6 +14,30 @@ TextureImporter:
   - first:
       213: -8545026421555985198
     second: Apple Face Animation_3
+  - first:
+      213: -5363677442768414770
+    second: Apple Face Animation_0
+  - first:
+      213: 6759878235351833068
+    second: Apple Face Animation_1
+  - first:
+      213: -4599911946920737213
+    second: Apple Face Animation_2
+  - first:
+      213: -8258710389544163050
+    second: Apple Face Animation_3
+  - first:
+      213: -5541405610472222624
+    second: Apple Face Animation_4
+  - first:
+      213: -5930359800660195743
+    second: Apple Face Animation_5
+  - first:
+      213: 1869412946244706358
+    second: Apple Face Animation_6
+  - first:
+      213: -1924485035274930171
+    second: Apple Face Animation_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,7 +128,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 953
+        width: 953.375
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -113,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cbfc685bdaf07890800000000000000
-      internalID: -7462188762564592704
+      spriteID: ec75306a8c36095b0800000000000000
+      internalID: -5363677442768414770
       vertices: []
       indices: 
       edges: []
@@ -125,7 +149,7 @@ TextureImporter:
         serializedVersion: 2
         x: 953
         y: 0
-        width: 953
+        width: 953.375
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54a7733098076dd60800000000000000
-      internalID: 7914637128917023301
+      spriteID: ce95a0f8079efcd50800000000000000
+      internalID: 6759878235351833068
       vertices: []
       indices: 
       edges: []
@@ -146,7 +170,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1906
         y: 0
-        width: 953
+        width: 953.375
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa0e7fd6128db2ba0800000000000000
-      internalID: -6112554431134834513
+      spriteID: 346c6b5a474d920c0800000000000000
+      internalID: -4599911946920737213
       vertices: []
       indices: 
       edges: []
@@ -167,7 +191,7 @@ TextureImporter:
         serializedVersion: 2
         x: 2859
         y: 0
-        width: 953
+        width: 953.375
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,8 +200,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d404da3eb7f96980800000000000000
-      internalID: -8545026421555985198
+      spriteID: 619646048aa236d80800000000000000
+      internalID: -8258710389544163050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apple Face Animation_4
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 0
+        width: 953.375
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0605277f4f8f813b0800000000000000
+      internalID: -5541405610472222624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apple Face Animation_5
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 0
+        width: 953.375
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16684638e2123bda0800000000000000
+      internalID: -5930359800660195743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apple Face Animation_6
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 0
+        width: 953.375
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630ae678b2d71f910800000000000000
+      internalID: 1869412946244706358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Apple Face Animation_7
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 0
+        width: 953.375
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508f1e88e0bda45e0800000000000000
+      internalID: -1924485035274930171
       vertices: []
       indices: 
       edges: []

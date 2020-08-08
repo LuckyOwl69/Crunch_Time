@@ -224,6 +224,18 @@ TextureImporter:
   - first:
       213: 8958444707242333259
     second: Boss Face Animation_69
+  - first:
+      213: 3969556353196198290
+    second: Boss Face Animation_4
+  - first:
+      213: -4981066737598337183
+    second: Boss Face Animation_5
+  - first:
+      213: -3268258722781075110
+    second: Boss Face Animation_6
+  - first:
+      213: 4734170625608929847
+    second: Boss Face Animation_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -312,9 +324,9 @@ TextureImporter:
       name: Boss Face Animation_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 0
         y: 0
-        width: 953
+        width: 953.375
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -407,8 +419,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9922c03fb6eb5fa70800000000000000
-      internalID: 8860197212769755801
+      spriteID: 299872cb872b61730800000000000000
+      internalID: 3969556353196198290
       vertices: []
       indices: 
       edges: []
@@ -428,8 +440,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7837cf3ff49dbc4c0800000000000000
-      internalID: -4266077284584361081
+      spriteID: 16fefe66132bfdab0800000000000000
+      internalID: -4981066737598337183
       vertices: []
       indices: 
       edges: []
@@ -449,8 +461,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6af7ccd00584ec90800000000000000
-      internalID: -7141436870352176531
+      spriteID: a59ef82f100d4a2d0800000000000000
+      internalID: -3268258722781075110
       vertices: []
       indices: 
       edges: []
@@ -470,8 +482,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27091fb2f8026d7d0800000000000000
-      internalID: -2894089911249301390
+      spriteID: 732528de91723b140800000000000000
+      internalID: 4734170625608929847
       vertices: []
       indices: 
       edges: []

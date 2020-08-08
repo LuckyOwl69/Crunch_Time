@@ -14,6 +14,30 @@ TextureImporter:
   - first:
       213: 3091858809221753066
     second: Muffin Face Animation_3
+  - first:
+      213: -3992463049028169833
+    second: Muffin Face Animation_0
+  - first:
+      213: 5885691332382854932
+    second: Muffin Face Animation_1
+  - first:
+      213: 1090602674249183303
+    second: Muffin Face Animation_2
+  - first:
+      213: 6839026090020976064
+    second: Muffin Face Animation_3
+  - first:
+      213: -4828188509020781681
+    second: Muffin Face Animation_4
+  - first:
+      213: 8702453608246842467
+    second: Muffin Face Animation_5
+  - first:
+      213: 4093630949626789018
+    second: Muffin Face Animation_6
+  - first:
+      213: 6423600444376851983
+    second: Muffin Face Animation_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,7 +128,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 953
+        width: 953.625
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -113,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3edb06c9cd497bec0800000000000000
-      internalID: -3551206105921045021
+      spriteID: 79f8dc7820ce798c0800000000000000
+      internalID: -3992463049028169833
       vertices: []
       indices: 
       edges: []
@@ -125,7 +149,7 @@ TextureImporter:
         serializedVersion: 2
         x: 953
         y: 0
-        width: 953
+        width: 953.625
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af7e93515edf4690800000000000000
-      internalID: -7615624003983605847
+      spriteID: 41f8644451d2ea150800000000000000
+      internalID: 5885691332382854932
       vertices: []
       indices: 
       edges: []
@@ -146,7 +170,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1906
         y: 0
-        width: 953
+        width: 953.625
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 475fbb1e6ea3111c0800000000000000
-      internalID: -4534778586481298060
+      spriteID: 740b6bd9a59922f00800000000000000
+      internalID: 1090602674249183303
       vertices: []
       indices: 
       edges: []
@@ -167,7 +191,7 @@ TextureImporter:
         serializedVersion: 2
         x: 2859
         y: 0
-        width: 953
+        width: 953.625
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,8 +200,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae82353a43d78ea20800000000000000
-      internalID: 3091858809221753066
+      spriteID: 0c534518ef919ee50800000000000000
+      internalID: 6839026090020976064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin Face Animation_4
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f838133c124defcb0800000000000000
+      internalID: -4828188509020781681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin Face Animation_5
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3649ed9f27355c870800000000000000
+      internalID: 8702453608246842467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin Face Animation_6
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cbc02e8af7fc830800000000000000
+      internalID: 4093630949626789018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin Face Animation_7
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 0
+        width: 953.625
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06af1a0296352950800000000000000
+      internalID: 6423600444376851983
       vertices: []
       indices: 
       edges: []

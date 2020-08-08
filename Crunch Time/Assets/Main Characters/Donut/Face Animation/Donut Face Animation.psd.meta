@@ -14,6 +14,42 @@ TextureImporter:
   - first:
       213: -8871452125843951948
     second: Donut Face Animation_3
+  - first:
+      213: 8490045344143907992
+    second: Donut Face Animation_0
+  - first:
+      213: -633507346107035109
+    second: Donut Face Animation_1
+  - first:
+      213: 3083966366486626727
+    second: Donut Face Animation_2
+  - first:
+      213: -994039183719089474
+    second: Donut Face Animation_3
+  - first:
+      213: -5807646658062153198
+    second: Donut Face Animation_4
+  - first:
+      213: -6764625389755242329
+    second: Donut Face Animation_5
+  - first:
+      213: -4713360871487008780
+    second: Donut Face Animation_6
+  - first:
+      213: 5036078405212293711
+    second: Donut Face Animation_7
+  - first:
+      213: 8384382777200657155
+    second: Donut Face Animation_4
+  - first:
+      213: 2594296986838314753
+    second: Donut Face Animation_5
+  - first:
+      213: -1923105104708578664
+    second: Donut Face Animation_6
+  - first:
+      213: -6525521949739492283
+    second: Donut Face Animation_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,7 +140,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 953
+        width: 954
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -113,8 +149,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aa41343caac86600800000000000000
-      internalID: 461841802764307107
+      spriteID: 89c18a02243b2d570800000000000000
+      internalID: 8490045344143907992
       vertices: []
       indices: 
       edges: []
@@ -123,9 +159,9 @@ TextureImporter:
       name: Donut Face Animation_1
       rect:
         serializedVersion: 2
-        x: 959
+        x: 954
         y: 0
-        width: 953
+        width: 954
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,8 +170,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 638780803cc007b90800000000000000
-      internalID: -7246277768646199242
+      spriteID: b1290b8dc645537f0800000000000000
+      internalID: -633507346107035109
       vertices: []
       indices: 
       edges: []
@@ -144,9 +180,9 @@ TextureImporter:
       name: Donut Face Animation_2
       rect:
         serializedVersion: 2
-        x: 1906
+        x: 1908
         y: 0
-        width: 953
+        width: 954
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a0f7187b4606a400800000000000000
-      internalID: 334962143492829350
+      spriteID: 7a100bd12137cca20800000000000000
+      internalID: 3083966366486626727
       vertices: []
       indices: 
       edges: []
@@ -165,9 +201,9 @@ TextureImporter:
       name: Donut Face Animation_3
       rect:
         serializedVersion: 2
-        x: 2859
+        x: 2862
         y: 0
-        width: 953
+        width: 954
         height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,8 +212,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4beef256b4542e480800000000000000
-      internalID: -8871452125843951948
+      spriteID: ebaba9901a67432f0800000000000000
+      internalID: -994039183719089474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donut Face Animation_4
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 0
+        width: 954
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303c2f7a6bf4b5470800000000000000
+      internalID: 8384382777200657155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donut Face Animation_5
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 0
+        width: 954
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f2d564d5bc00420800000000000000
+      internalID: 2594296986838314753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donut Face Animation_6
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 0
+        width: 954
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892da18a812cf45e0800000000000000
+      internalID: -1923105104708578664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donut Face Animation_7
+      rect:
+        serializedVersion: 2
+        x: 6678
+        y: 0
+        width: 954
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c53c34c50b075a0800000000000000
+      internalID: -6525521949739492283
       vertices: []
       indices: 
       edges: []
