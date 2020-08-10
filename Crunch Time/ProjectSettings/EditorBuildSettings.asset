@@ -15,25 +15,25 @@ EditorBuildSettings:
     path: Assets/Scenes/Hallway Rooms/Hallway_2.unity
     guid: 1f5972aea05907f48a17c1a484067b0f
   - enabled: 1
-    path: Assets/Scenes/Office Rooms/Office_Boss.unity
+    path: Assets/Scenes/Office Rooms/2/Office_Boss.unity
     guid: 3f6712fb24a18684288c096df847ccc9
   - enabled: 1
-    path: Assets/Scenes/Office Rooms/Office_File.unity
+    path: Assets/Scenes/Office Rooms/1/Office_File.unity
     guid: ca39b3c9f96e5c4438e73df118410e3e
   - enabled: 1
-    path: Assets/Scenes/Office Rooms/Office_Lunch.unity
+    path: Assets/Scenes/Office Rooms/1/Office_Lunch.unity
     guid: 265de6eb7aac83b458ad49531ab074c7
   - enabled: 1
-    path: Assets/Scenes/Office Rooms/Office_Printing.unity
+    path: Assets/Scenes/Office Rooms/1/Office_Printing.unity
     guid: 28f31810e35b75b48bf2bd4c6930bab6
   - enabled: 1
-    path: Assets/Scenes/Office Rooms/Office_Conference.unity
+    path: Assets/Scenes/Office Rooms/2/Office_Conference.unity
     guid: 4830d0133ed368b43b2a44c742680a9a
   - enabled: 1
-    path: Assets/Scenes/Office Rooms/Office_Lunch2.unity
+    path: Assets/Scenes/Office Rooms/2/Office_Lunch2.unity
     guid: a661cfd15ce705f48a66569a02c432fe
   - enabled: 1
-    path: Assets/Scenes/Office Rooms/Office_Intern.unity
+    path: Assets/Scenes/Office Rooms/1/Office_Intern.unity
     guid: f55fa24e745f2124a9b4403941732097
   - enabled: 1
     path: Assets/Scenes/Battle Scenes/Battle_Hallway 1.unity

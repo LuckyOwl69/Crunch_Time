@@ -185,12 +185,12 @@ PolygonCollider2D:
       - {x: -35.856445, y: -0.24115276}
       - {x: -19.464169, y: -0.22589588}
       - {x: -19.452652, y: 1.8399925}
-      - {x: -14.32147, y: 1.9833336}
-      - {x: -14.262965, y: 6.8010063}
-      - {x: -10.529429, y: 6.8106594}
-      - {x: -10.5386915, y: 1.9168243}
-      - {x: -6.147331, y: 1.9132051}
-      - {x: -6.10514, y: -0.23008823}
+      - {x: -15.703629, y: 1.8481855}
+      - {x: -15.76169, y: 6.784355}
+      - {x: -11.994849, y: 6.7940063}
+      - {x: -11.968878, y: 1.8579273}
+      - {x: -6.1620555, y: 1.8395844}
+      - {x: -6.1640363, y: -0.185915}
       - {x: 8.439142, y: -0.19324303}
       - {x: 8.503092, y: 4.2420025}
       - {x: 10.672607, y: 4.2661457}
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 175314797}
   - component: {fileID: 175314796}
   m_Layer: 0
-  m_Name: Exit 2
+  m_Name: Print Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ Transform:
   m_Children:
   - {fileID: 1249868357}
   m_Father: {fileID: 1109200247}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175314796
 MonoBehaviour:
@@ -242,11 +242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da0d0c8a508fa04fa442d45dbaf8eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Office_Lunch
-  useIndicator: {fileID: 0}
-  transitionAnimation: {fileID: 0}
-  NextScenePositionX: 7.13
-  NextScenePositionY: 0.21
+  NextScene: Office_Printing
+  useIndicator: {fileID: 691179163}
+  transitionAnimation: {fileID: 691179165}
+  NextScenePositionX: 7.31
+  NextScenePositionY: -0.44
 --- !u!61 &175314797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -343,7 +343,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 942371e9887685d4dac739cf181e4918, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8b3ae95699e85b64c885a8505eabd5f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 658252699}
   - component: {fileID: 658252698}
   m_Layer: 0
-  m_Name: Exit 5
+  m_Name: Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -607,7 +607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658252696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.06, y: 16.44, z: 0}
+  m_LocalPosition: {x: -1.4, y: 16.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1109200247}
@@ -626,10 +626,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: Hallway_2
-  useIndicator: {fileID: 0}
-  transitionAnimation: {fileID: 0}
-  NextScenePositionX: 0
-  NextScenePositionY: 17.2
+  useIndicator: {fileID: 691179163}
+  transitionAnimation: {fileID: 691179165}
+  NextScenePositionX: -1.4
+  NextScenePositionY: 15.3
 --- !u!61 &658252699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -832,9 +832,9 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 691179160}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &691179164 stripped
+--- !u!95 &691179165 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 4947676705447420749, guid: ba11147cb51dc8840a0c681307da6bb3,
+  m_CorrespondingSourceObject: {fileID: 2967188326012241351, guid: ba11147cb51dc8840a0c681307da6bb3,
     type: 3}
   m_PrefabInstance: {fileID: 691179160}
   m_PrefabAsset: {fileID: 0}
@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 1179065318}
   - component: {fileID: 1179065317}
   m_Layer: 0
-  m_Name: Exit 3
+  m_Name: Lunch Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1418,7 +1418,7 @@ Transform:
   m_Children:
   - {fileID: 204921649}
   m_Father: {fileID: 1109200247}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1179065317
 MonoBehaviour:
@@ -1432,11 +1432,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da0d0c8a508fa04fa442d45dbaf8eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Office_Boss
+  NextScene: Office_Lunch
   useIndicator: {fileID: 691179163}
-  transitionAnimation: {fileID: 691179164}
-  NextScenePositionX: 7.13
-  NextScenePositionY: 0.21
+  transitionAnimation: {fileID: 691179165}
+  NextScenePositionX: 7.31
+  NextScenePositionY: -0.44
 --- !u!61 &1179065318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1533,7 +1533,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 742fdf42b8b524040bc1fc035363b192, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6851f46f63f144446a8384c626993034, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1637,7 +1637,7 @@ GameObject:
   - component: {fileID: 1345020621}
   - component: {fileID: 1345020620}
   m_Layer: 0
-  m_Name: Exit 4
+  m_Name: Intern Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1656,7 +1656,7 @@ Transform:
   m_Children:
   - {fileID: 1865664370}
   m_Father: {fileID: 1109200247}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1345020620
 MonoBehaviour:
@@ -1670,11 +1670,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da0d0c8a508fa04fa442d45dbaf8eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Office_Printing
-  useIndicator: {fileID: 0}
-  transitionAnimation: {fileID: 0}
-  NextScenePositionX: 7.13
-  NextScenePositionY: 0.21
+  NextScene: Office_Intern
+  useIndicator: {fileID: 691179163}
+  transitionAnimation: {fileID: 691179165}
+  NextScenePositionX: 7.31
+  NextScenePositionY: -0.44
 --- !u!61 &1345020621
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1890,6 +1890,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2242169013795379466, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893309557617323, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: playerObject
@@ -2100,7 +2105,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f7e9ae480d430754a86609879b5af0f1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 09316c9ee99fb1c499ad95fa904dc06c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2307,7 +2312,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 61fa44caa3c32c74ca9f4929cf64fef2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 647e0ac773bb0294fa9b6977cdda7ebd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2370,6 +2375,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 24334916203508750, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5655806521742298776, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: m_Sprite
@@ -2390,6 +2400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051132908126967108, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+        type: 3}
+      propertyPath: storyState
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7116238670848464920, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
@@ -2589,12 +2604,27 @@ PrefabInstance:
     - target: {fileID: 7116238672411836085, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: NextScenePositionX
-      value: 7.13
+      value: 7.31
       objectReference: {fileID: 0}
     - target: {fileID: 7116238672411836085, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: NextScenePositionY
-      value: 0.21
+      value: -0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116238672411836085, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+        type: 3}
+      propertyPath: useIndicator
+      value: 
+      objectReference: {fileID: 691179163}
+    - target: {fileID: 7116238672411836085, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+        type: 3}
+      propertyPath: transitionAnimation
+      value: 
+      objectReference: {fileID: 691179165}
+    - target: {fileID: 7116238672411836086, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+        type: 3}
+      propertyPath: m_Name
+      value: File Room
       objectReference: {fileID: 0}
     - target: {fileID: 7116238672411836087, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
