@@ -845,6 +845,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4349502817257480371, guid: cfdb65fc58ea9d6498cb0afeb2642891,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4349502817272584701, guid: cfdb65fc58ea9d6498cb0afeb2642891,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -904,6 +909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Elevator Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349502819103660352, guid: cfdb65fc58ea9d6498cb0afeb2642891,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfdb65fc58ea9d6498cb0afeb2642891, type: 3}
@@ -1603,7 +1613,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1073e9dce10834f499bb677abcbb4bfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2170,7 +2180,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c20191ca5e7e28e40b564eec88f50d46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
