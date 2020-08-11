@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &352613838 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5208526770522650832, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &569223821
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,12 +324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1023411535 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6799870563104456086, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1053480904 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6799870563158535953, guid: ba11147cb51dc8840a0c681307da6bb3,
@@ -453,7 +441,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 5542955461834680250, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}
       propertyPath: m_IsActive
@@ -747,6 +735,12 @@ GameObject:
 --- !u!212 &1594958357 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1460909354802986145, guid: 578051969e798ad47ac9ee19501ec893,
+    type: 3}
+  m_PrefabInstance: {fileID: 1460909354046889652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1594958359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1460909354802986144, guid: 578051969e798ad47ac9ee19501ec893,
     type: 3}
   m_PrefabInstance: {fileID: 1460909354046889652}
   m_PrefabAsset: {fileID: 0}
@@ -1051,7 +1045,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805651, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_Offset.x
@@ -1509,6 +1503,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 179886133841506944, guid: e1ca33e939aa1b64bbe689d76e30f51b,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1594958359}
     - target: {fileID: 5992957551727631832, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1639,7 +1638,7 @@ PrefabInstance:
         type: 3}
       propertyPath: useIndicator
       value: 
-      objectReference: {fileID: 352613838}
+      objectReference: {fileID: 0}
     - target: {fileID: 5992957553031215990, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: transitionAnimation

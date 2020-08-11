@@ -5,22 +5,30 @@ using UnityEngine;
 public class QuestInformationHandler : MonoBehaviour
 {
     public Animator questWindowAnimator;
+    public Animator questWindowIconAnimator;
 
     
     //public bool hasNewQuest;
 
     public GameObject questWindowNotification;
 
+    public GameObject questWindowBackground;
+
 
 
     void OpenQuestWindow()
     {
         questWindowAnimator.SetBool("IsOpen", true);
+        questWindowIconAnimator.SetBool("IsOpen", true);
+        questWindowBackground.gameObject.SetActive(true);
     }
     
     void CloseQuestWindow()
     {
         questWindowAnimator.SetBool("IsOpen", false);
+        questWindowIconAnimator.SetBool("IsOpen", false);
+        questWindowBackground.gameObject.SetActive(false);
+
     }
 
 
@@ -38,6 +46,7 @@ public class QuestInformationHandler : MonoBehaviour
             OpenQuestWindow();
             GameManager.hasNewQuest = false;
             questWindowNotification.gameObject.SetActive(false);
+            
 
 
         }

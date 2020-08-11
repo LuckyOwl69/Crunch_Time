@@ -62,7 +62,7 @@ public class DialogueManager : MonoBehaviour
 
         _isTalking = true;
 
-        currentSpeakerText.text = dialogue.name;
+        currentSpeakerText.text = dialogue.npcName;
 
         //set state of facial animation
         dialogue.npcFace.SetBool("Idle", false);

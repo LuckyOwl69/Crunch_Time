@@ -139,12 +139,6 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1810576567}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &552190831 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5208526770522650832, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1810576567}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &618421000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,12 +220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada2b5d98609a0748a60b2ed099bb07d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1350489768 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6799870563104456086, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1810576567}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1594958353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1460909354802986149, guid: 578051969e798ad47ac9ee19501ec893,
@@ -241,6 +229,12 @@ GameObject:
 --- !u!212 &1594958357 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1460909354802986145, guid: 578051969e798ad47ac9ee19501ec893,
+    type: 3}
+  m_PrefabInstance: {fileID: 1460909354046889652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1594958359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1460909354802986144, guid: 578051969e798ad47ac9ee19501ec893,
     type: 3}
   m_PrefabInstance: {fileID: 1460909354046889652}
   m_PrefabAsset: {fileID: 0}
@@ -575,7 +569,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkButtons.Array.data[0]
       value: 
-      objectReference: {fileID: 1350489768}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59ac2b01a04cc6f4691fd1abd7ebf49e, type: 3}
 --- !u!1001 &1460909354046889652
@@ -837,7 +831,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1350489768}
+      objectReference: {fileID: 0}
     - target: {fileID: 5542955461834680248, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}
       propertyPath: m_Sprite
@@ -863,6 +857,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 179886133841506944, guid: e1ca33e939aa1b64bbe689d76e30f51b,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1594958359}
     - target: {fileID: 5992957551727631832, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -988,7 +987,7 @@ PrefabInstance:
         type: 3}
       propertyPath: useIndicator
       value: 
-      objectReference: {fileID: 552190831}
+      objectReference: {fileID: 0}
     - target: {fileID: 5992957553031215990, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: transitionAnimation
