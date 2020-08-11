@@ -332,6 +332,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 6799870562248816857}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1316861856 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2342690532279983045, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2342690532305584546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1535106069 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5871471502216984673, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2342690532305584546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1594958353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1460909354802986149, guid: 578051969e798ad47ac9ee19501ec893,
@@ -734,6 +746,16 @@ PrefabInstance:
       propertyPath: playerFaceAnimator
       value: 
       objectReference: {fileID: 2105602143}
+    - target: {fileID: 1065205151759376977, guid: 59ac2b01a04cc6f4691fd1abd7ebf49e,
+        type: 3}
+      propertyPath: npcFace
+      value: 
+      objectReference: {fileID: 1316861856}
+    - target: {fileID: 1065205151759376977, guid: 59ac2b01a04cc6f4691fd1abd7ebf49e,
+        type: 3}
+      propertyPath: playerFace
+      value: 
+      objectReference: {fileID: 1535106069}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59ac2b01a04cc6f4691fd1abd7ebf49e, type: 3}
 --- !u!1001 &1460909354046889652
@@ -1479,9 +1501,7 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[5]
-      value: 'Well it''s break time for me, your first task is to get me a coffee.
-
-'
+      value: Well it's break time for me, your first task is to get me a coffee.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1495,6 +1515,26 @@ PrefabInstance:
       propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
       value: You can get me a coffee from the lunch room down the hall.
       objectReference: {fileID: 0}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].npcFace
+      value: 
+      objectReference: {fileID: 1316861856}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].npcFace
+      value: 
+      objectReference: {fileID: 1316861856}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].playerFace
+      value: 
+      objectReference: {fileID: 1535106069}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].playerFace
+      value: 
+      objectReference: {fileID: 1535106069}
     - target: {fileID: 6402893311324805649, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: talkIcon

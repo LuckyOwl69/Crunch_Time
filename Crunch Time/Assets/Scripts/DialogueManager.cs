@@ -18,10 +18,11 @@ public class DialogueManager : MonoBehaviour
     public Animator npcFaceAnimator;
     public Animator playerFaceAnimator;
 
+    public Animator npcFace;
+    public Animator playerFace;
+
     //public List<TalkIconController> NPCPrefabs;
 
-    //public bool battleTime;
-    //public string battleScene;
 
     public GameObject talkButton;
 
@@ -55,18 +56,17 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        //foreach (GameObject talkButton in talkButtons)
-        //{
-            talkButton.gameObject.SetActive(false);
-        //}
+        talkButton.gameObject.SetActive(false);
 
-        dialogueBoxAnimator.SetBool("IsOpen", true);
-        npcFaceAnimator.SetBool("IsOpen", true);
-        playerFaceAnimator.SetBool("IsOpen", true);
+        FaceAnimationsStart();
 
         _isTalking = true;
 
         currentSpeakerText.text = dialogue.name;
+
+        //set state of facial animation
+        dialogue.npcFace.SetBool("Idle", false);
+        dialogue.playerFace.SetBool("Idle", true);
 
         sentences.Clear();
 
@@ -90,6 +90,7 @@ public class DialogueManager : MonoBehaviour
                 return;
             }
 
+
             string sentence = sentences.Dequeue();
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));
@@ -109,20 +110,27 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        //foreach (GameObject talkButton in talkButtons)
-        //{
-            talkButton.gameObject.SetActive(true);
-        //}
+        talkButton.gameObject.SetActive(true);
 
-        
 
-        //if(battleTime = true)
-        //    SceneManager.LoadScene(battleScene);
+        FaceAnimationsEnd();
 
+        _isTalking = false;
+    }
+
+    void FaceAnimationsStart()
+    {
+        dialogueBoxAnimator.SetBool("IsOpen", true);
+        npcFaceAnimator.SetBool("IsOpen", true);
+        playerFaceAnimator.SetBool("IsOpen", true);
+        //npcFace.SetBool("Idle", true);
+        //playerFace.SetBool("Idle", true);
+    }
+    
+    void FaceAnimationsEnd()
+    {
         dialogueBoxAnimator.SetBool("IsOpen", false);
         npcFaceAnimator.SetBool("IsOpen", false);
         playerFaceAnimator.SetBool("IsOpen", false);
-
-        _isTalking = false;
     }
 }

@@ -6,6 +6,8 @@ using UnityEngine;
 public class Dialogue
 {
     public string name;
+    public Animator npcFace;
+    public Animator playerFace;
 
     [TextArea(3, 10)]
     public string[] sentences;
