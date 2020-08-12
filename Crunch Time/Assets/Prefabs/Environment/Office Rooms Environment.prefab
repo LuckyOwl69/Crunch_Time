@@ -500,4 +500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  eastBoundary: 1.4
+  southBoundary: -0.8
+  westBoundary: -1.4
+  northBoundary: 0.78
   offset: {x: 0, y: 0, z: -8}

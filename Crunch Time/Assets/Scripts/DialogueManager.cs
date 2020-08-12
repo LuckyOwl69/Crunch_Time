@@ -21,6 +21,8 @@ public class DialogueManager : MonoBehaviour
     public Animator npcFace;
     public Animator playerFace;
 
+    bool npcTalking = true;
+
     //public List<TalkIconController> NPCPrefabs;
 
 
@@ -33,6 +35,8 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();
         _isTalking = false;
+        npcFace.SetBool("Idle", true);
+        playerFace.SetBool("Idle", true);
     }
 
     // public but unsettable IsTalking variable lets others know
@@ -62,11 +66,14 @@ public class DialogueManager : MonoBehaviour
 
         _isTalking = true;
 
-        currentSpeakerText.text = dialogue.npcName;
+        if (npcTalking)
+            currentSpeakerText.text = dialogue.npcName;
+
+
 
         //set state of facial animation
-        dialogue.npcFace.SetBool("Idle", false);
-        dialogue.playerFace.SetBool("Idle", true);
+        //dialogue.npcFace.SetBool("Idle", true);
+        //dialogue.playerFace.SetBool("Idle", true);
 
         sentences.Clear();
 
@@ -92,6 +99,24 @@ public class DialogueManager : MonoBehaviour
 
 
             string sentence = sentences.Dequeue();
+            if (sentence.Contains("_npcTalking"))
+            {
+                npcFace.SetBool("Idle", false);
+                playerFace.SetBool("Idle", true);
+                sentence = sentence.Replace("_npcTalking", "");
+                
+            }
+                
+            else if (sentence.Contains("_playerTalking"))
+            {
+                npcFace.SetBool("Idle", true);
+                playerFace.SetBool("Idle", false);
+                sentence.Replace("_playerTalking", "");
+
+            }
+
+
+
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));
         }
@@ -100,6 +125,11 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
+        if (sentence.Contains("_npcTalking"))
+        {
+            sentence.Replace("_npcTalking", "");
+
+        }
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {

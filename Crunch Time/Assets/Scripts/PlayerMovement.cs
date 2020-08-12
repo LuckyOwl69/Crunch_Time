@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public float multiplier;
+
     public float movementSpeed = 5f;
 
     public Rigidbody2D rb;
@@ -17,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         transform.position = GameManager.overworldPos;
+        multiplier = 1f;
     }
 
     // Update is called once per frame
@@ -28,12 +31,20 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("RightSpeed", movement.x);
         animator.SetFloat("UpSpeed", movement.y);
+
+        if (Input.GetKey(KeyCode.LeftShift))
+            multiplier = 3;
+        
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+            multiplier = 1;
+
+
     }
 
     void Movement()
     {
         //movement
-        rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * movementSpeed  * multiplier* Time.fixedDeltaTime);
     }
 
     void FixedUpdate()

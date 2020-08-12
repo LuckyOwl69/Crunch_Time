@@ -1478,6 +1478,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2242169013795379466, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -282945435
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242169013795379466, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893309557617323, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: playerObject
@@ -1587,13 +1597,14 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
-      value: Boom what up ninja, I'm the boss around here and I'm a burger.
+      value: _npcTalkingBoom what up ninja, I'm the boss around here and I'm a burger.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
-      value: Welcome to Crunch Time and Congratulations on getting an internship
-        amigo. To begin your internship, you gotta do everything that I tell you.
+      value: _playerTalkingWelcome to Crunch Time and Congratulations on getting
+        an internship amigo. To begin your internship, you gotta do everything that
+        I tell you.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1844,6 +1855,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6799870562916592230, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d08dbad2a31030e4eb9fd7ebf169d617,
+        type: 3}
     - target: {fileID: 6799870563158535967, guid: ba11147cb51dc8840a0c681307da6bb3,
         type: 3}
       propertyPath: m_Sprite
