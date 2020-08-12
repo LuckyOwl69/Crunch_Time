@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &470770331 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5208526770522650832, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &530722258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -258,7 +252,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805652, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -278,12 +272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1023411535 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6799870563104456086, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1053480904 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6799870563158535953, guid: ba11147cb51dc8840a0c681307da6bb3,
@@ -905,7 +893,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fbdb8324f89fded4ab89efd0a29e049a,
+      objectReference: {fileID: 21300000, guid: e17048d1a7e908940a1ab4e22ecc1298,
         type: 3}
     - target: {fileID: 5992957551727631835, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
@@ -1011,7 +999,7 @@ PrefabInstance:
         type: 3}
       propertyPath: useIndicator
       value: 
-      objectReference: {fileID: 470770331}
+      objectReference: {fileID: 0}
     - target: {fileID: 5992957553031215990, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: transitionAnimation
@@ -1026,7 +1014,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 72f249cb4e51b0d4cbac9d3724493ca4,
+      objectReference: {fileID: 21300000, guid: 19873cc409759524cb97caa3427c053f,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1ca33e939aa1b64bbe689d76e30f51b, type: 3}
@@ -1166,7 +1154,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805652, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_LocalPosition.x

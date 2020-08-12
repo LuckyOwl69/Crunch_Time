@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &65406566 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5208526770522650832, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &259770843 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2967188326012241351, guid: ba11147cb51dc8840a0c681307da6bb3,
@@ -354,7 +348,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805652, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -512,12 +506,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b00f5de6993e8545b39edb70f7a7c6e, type: 3}
---- !u!1 &1023411535 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6799870563104456086, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1053480904 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6799870563158535953, guid: ba11147cb51dc8840a0c681307da6bb3,
@@ -688,7 +676,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805652, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1151,7 +1139,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5fff26d3f6df8c1448b6b9642f9031f8,
+      objectReference: {fileID: 21300000, guid: a126a9358c08faf4b82d72a1812d5392,
         type: 3}
     - target: {fileID: 5992957551727631835, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
@@ -1337,7 +1325,7 @@ PrefabInstance:
         type: 3}
       propertyPath: useIndicator
       value: 
-      objectReference: {fileID: 65406566}
+      objectReference: {fileID: 0}
     - target: {fileID: 5992957553031215990, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: transitionAnimation
@@ -1352,7 +1340,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3c03ea2b4d7bd7f47ad52c8cc9a4ff72,
+      objectReference: {fileID: 21300000, guid: 1da88caf02d906b48a98380d627f8e2e,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1ca33e939aa1b64bbe689d76e30f51b, type: 3}

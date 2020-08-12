@@ -269,7 +269,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805652, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -383,7 +383,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 5542955461834680248, guid: 8f61ede5cf57e294ba38c8737353b840,
         type: 3}
       propertyPath: m_Enabled
@@ -532,12 +532,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2342690533755724052, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
     type: 3}
   m_PrefabInstance: {fileID: 1040749836}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1023411535 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6799870563104456086, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1040749836
 PrefabInstance:
@@ -837,7 +831,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkIcon
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805652, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -850,12 +844,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418, type: 3}
---- !u!1 &1383535082 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5208526770522650832, guid: ba11147cb51dc8840a0c681307da6bb3,
-    type: 3}
-  m_PrefabInstance: {fileID: 6799870562248816857}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1523937439 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2967188326012241351, guid: ba11147cb51dc8840a0c681307da6bb3,
@@ -1046,7 +1034,7 @@ PrefabInstance:
         type: 3}
       propertyPath: talkButtons.Array.data[0]
       value: 
-      objectReference: {fileID: 1023411535}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59ac2b01a04cc6f4691fd1abd7ebf49e, type: 3}
 --- !u!1001 &1460909354046889652
@@ -1268,7 +1256,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ad21d59bb23f4da4bb9d04257fc570c7,
+      objectReference: {fileID: 21300000, guid: e495f66a703e08e48afe79bc11bbff5a,
         type: 3}
     - target: {fileID: 5992957551727631835, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
@@ -1359,7 +1347,7 @@ PrefabInstance:
         type: 3}
       propertyPath: useIndicator
       value: 
-      objectReference: {fileID: 1383535082}
+      objectReference: {fileID: 0}
     - target: {fileID: 5992957553031215990, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: transitionAnimation
@@ -1369,7 +1357,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2e352a9b56b9eed4eaca6fa27e9cd786,
+      objectReference: {fileID: 21300000, guid: 2daec7afc51f1d643930ffcb7513872e,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1ca33e939aa1b64bbe689d76e30f51b, type: 3}
