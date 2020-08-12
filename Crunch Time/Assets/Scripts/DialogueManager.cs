@@ -21,6 +21,10 @@ public class DialogueManager : MonoBehaviour
     public Animator npcFace;
     public Animator playerFace;
 
+    public String playerName;
+    public String npcName;
+
+
     bool npcTalking = true;
 
     //public List<TalkIconController> NPCPrefabs;
@@ -66,8 +70,8 @@ public class DialogueManager : MonoBehaviour
 
         _isTalking = true;
 
-        if (npcTalking)
-            currentSpeakerText.text = dialogue.npcName;
+        
+        //currentSpeakerText.text = dialogue.npcName;
 
 
 
@@ -99,21 +103,57 @@ public class DialogueManager : MonoBehaviour
 
 
             string sentence = sentences.Dequeue();
+
+            //stuff that happens when npc talks
             if (sentence.Contains("_npcTalking"))
             {
                 npcFace.SetBool("Idle", false);
                 playerFace.SetBool("Idle", true);
+                npcFaceAnimator.SetBool("IsOpen", true);
+
+
+                currentSpeakerText.text = npcName;
                 sentence = sentence.Replace("_npcTalking", "");
                 
             }
+            //stuff that happens when npc talks solo
+            if (sentence.Contains("_npcSolo"))
+            {
+                playerFaceAnimator.SetBool("IsOpen", false);
+                npcFace.SetBool("Idle", false);
                 
+                currentSpeakerText.text = npcName;
+                sentence = sentence.Replace("_npcSolo", "");
+                
+            }
+
+
+
+            //stuff that happens when player talks
             else if (sentence.Contains("_playerTalking"))
             {
                 npcFace.SetBool("Idle", true);
                 playerFace.SetBool("Idle", false);
-                sentence.Replace("_playerTalking", "");
+                playerFaceAnimator.SetBool("IsOpen", true);
+
+
+                currentSpeakerText.text = playerName;
+                sentence = sentence.Replace("_playerTalking", "");
 
             }
+            
+            //stuff that happens when player talks solo
+            else if (sentence.Contains("_playerSolo"))
+            {
+                npcFaceAnimator.SetBool("IsOpen", false);
+                playerFace.SetBool("Idle", false);
+
+                currentSpeakerText.text = playerName;
+                sentence = sentence.Replace("_playerSolo", "");
+
+            }
+
+
 
 
 
