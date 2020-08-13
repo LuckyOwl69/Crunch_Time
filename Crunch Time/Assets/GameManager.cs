@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
         Debug.Log(storyState);
         if (tempStoryState != 0)
             storyState = tempStoryState;
+        tempStoryState = 0;
+
+
     }
 
     void Awake()
