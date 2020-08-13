@@ -146,6 +146,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 363415568779666417, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: newStoryState
+      value: 1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 2242169013795379466, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_SortingOrder
@@ -175,7 +180,7 @@ PrefabInstance:
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMaxStoryState
-      value: 1.2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -185,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMinStoryState
-      value: 1.1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683731, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -463,6 +468,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 363415568779666417, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: newStoryState
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2242169013795379466, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_SortingOrder
@@ -492,7 +502,7 @@ PrefabInstance:
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMaxStoryState
-      value: 1.1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -502,7 +512,7 @@ PrefabInstance:
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMinStoryState
-      value: 0
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683731, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -656,7 +666,7 @@ PrefabInstance:
     - target: {fileID: 363415568779666417, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: newStoryState
-      value: 1.1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 2242169013795379466, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -692,7 +702,7 @@ PrefabInstance:
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMaxStoryState
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -702,7 +712,7 @@ PrefabInstance:
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMinStoryState
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683731, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1227,6 +1237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overworldPosX: 0
   overworldPosY: 0
+  tempStoryState: 1.1
 --- !u!4 &2648172908572337873
 Transform:
   m_ObjectHideFlags: 0

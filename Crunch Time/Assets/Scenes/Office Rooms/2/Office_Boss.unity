@@ -1194,7 +1194,7 @@ PrefabInstance:
     - target: {fileID: 363415568779666417, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: newStoryState
-      value: 1
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 2242169013795379466, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1344,14 +1344,14 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[6]
-      value: 'You can get one from the lunch room down the hall.
+      value: 'You can get one from the lunch room down stairs
 
 '
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
-      value: You can get me a coffee from the lunch room down the hall.
+      value: You can get me a coffee from the lunch room down stairs.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}

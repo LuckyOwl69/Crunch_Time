@@ -15,11 +15,15 @@ public class GameManager : MonoBehaviour
 
     public static float storyState;
 
+    public float tempStoryState;
+
     public static bool hasNewQuest;
 
     void Update()
     {
         Debug.Log(storyState);
+        if (tempStoryState != 0)
+            storyState = tempStoryState;
     }
 
     void Awake()

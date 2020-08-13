@@ -142,9 +142,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questName: {fileID: 6618322632807785558}
   questInformation: {fileID: 4134179228771921316}
-  storyState: 1
+  storyState: 1.1
   newQuestName: Break Time
-  newQuestInformation: Go get the boss some coffee
+  newQuestInformation: Go get the boss some coffee. You can find the lunch room on
+    level 1.
 --- !u!1 &1483585949729673185
 GameObject:
   m_ObjectHideFlags: 0
