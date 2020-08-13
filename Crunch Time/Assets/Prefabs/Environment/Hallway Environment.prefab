@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndicator: {fileID: 1322197297323900863}
-  storyState: 0
+  storyState: -1
 --- !u!1 &1322197297323900863
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndicator: {fileID: 2834504478902444104}
-  storyState: 0
+  storyState: -1
 --- !u!1 &4366640426220033358
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndicator: {fileID: 7715613859406765895}
-  storyState: 0
+  storyState: -1
 --- !u!1 &4550569701256729100
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndicator: {fileID: 5608870210437897589}
-  storyState: 0
+  storyState: -1
 --- !u!1 &7116238670848464922
 GameObject:
   m_ObjectHideFlags: 0

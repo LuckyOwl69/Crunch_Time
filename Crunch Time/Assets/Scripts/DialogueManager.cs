@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
     public String npcName;
 
 
-    bool npcTalking = true;
+    //bool npcTalking = true;
 
     //public List<TalkIconController> NPCPrefabs;
 
@@ -74,11 +74,6 @@ public class DialogueManager : MonoBehaviour
         //currentSpeakerText.text = dialogue.npcName;
 
 
-
-        //set state of facial animation
-        //dialogue.npcFace.SetBool("Idle", true);
-        //dialogue.playerFace.SetBool("Idle", true);
-
         sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
@@ -116,6 +111,7 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("_npcTalking", "");
                 
             }
+
             //stuff that happens when npc talks solo
             if (sentence.Contains("_npcSolo"))
             {
@@ -126,8 +122,6 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("_npcSolo", "");
                 
             }
-
-
 
             //stuff that happens when player talks
             else if (sentence.Contains("_playerTalking"))
@@ -153,10 +147,6 @@ public class DialogueManager : MonoBehaviour
 
             }
 
-
-
-
-
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));
         }
@@ -165,11 +155,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
-        if (sentence.Contains("_npcTalking"))
-        {
-            sentence.Replace("_npcTalking", "");
-
-        }
+        
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {

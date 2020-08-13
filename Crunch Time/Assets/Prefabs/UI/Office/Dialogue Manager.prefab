@@ -47,5 +47,9 @@ MonoBehaviour:
   dialogueText: {fileID: 0}
   dialogueBoxAnimator: {fileID: 0}
   npcFaceAnimator: {fileID: 0}
-  talkButtons:
-  - {fileID: 0}
+  playerFaceAnimator: {fileID: 0}
+  npcFace: {fileID: 0}
+  playerFace: {fileID: 0}
+  playerName: Sunny
+  npcName: 
+  talkButton: {fileID: 0}

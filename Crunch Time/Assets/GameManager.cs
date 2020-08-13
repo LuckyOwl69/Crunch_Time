@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,8 +19,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        UnityEngine.Debug.Log(storyState);
-        UnityEngine.Debug.Log(hasNewQuest);
+        Debug.Log(storyState);
     }
 
     void Awake()
@@ -34,7 +32,7 @@ public class GameManager : MonoBehaviour
             overworldPos.x = overworldPosX;
             overworldPos.y = overworldPosY;
 
-            hasNewQuest = hasNewQuest;
+            //hasNewQuest = hasNewQuest;
 
             instance = this;
             DontDestroyOnLoad(this.gameObject);
