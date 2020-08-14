@@ -16,7 +16,7 @@ public class ActiveStateHandler : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.storyState >= myMinStoryState && GameManager.storyState < myMaxStoryState) 
+        if (myMinStoryState <= GameManager.storyState  && GameManager.storyState <= myMaxStoryState) 
         {
             NPC.SetActive(true);
         }

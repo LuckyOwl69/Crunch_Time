@@ -88,6 +88,11 @@ GameObject:
   - component: {fileID: 6439089611907597645}
   - component: {fileID: 1214422029528117828}
   - component: {fileID: 7447931794190271171}
+  - component: {fileID: 5451339131654946232}
+  - component: {fileID: 3789605895568753020}
+  - component: {fileID: 8300226602240347577}
+  - component: {fileID: 5716133318538404841}
+  - component: {fileID: 4708634320098541923}
   m_Layer: 5
   m_Name: Quest Handler
   m_TagString: Untagged
@@ -201,6 +206,95 @@ MonoBehaviour:
   newQuestName: Find Donut
   newQuestInformation: Head upstairs and find Donut, he can show you to the other
     lunch room.
+--- !u!114 &5451339131654946232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913256376340240677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802fbc1ecb79a254b879c35c7d3ebd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: {fileID: 6618322632807785558}
+  questInformation: {fileID: 4134179228771921316}
+  storyState: 1.5
+  newQuestName: Go to the cooler Lunch Room
+  newQuestInformation: There's a better lunch room on floor 2 but I hear the utencils
+    are a bit mean...
+--- !u!114 &3789605895568753020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913256376340240677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802fbc1ecb79a254b879c35c7d3ebd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: {fileID: 6618322632807785558}
+  questInformation: {fileID: 4134179228771921316}
+  storyState: 1.7
+  newQuestName: Use the cooler Coffee Machine
+  newQuestInformation: F**k seems nice. You better use the other coffee machine before
+    he becomes nicer.
+--- !u!114 &8300226602240347577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913256376340240677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802fbc1ecb79a254b879c35c7d3ebd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: {fileID: 6618322632807785558}
+  questInformation: {fileID: 4134179228771921316}
+  storyState: 1.91
+  newQuestName: Give Donut his Coffee
+  newQuestInformation: Give Donut his stupid Coffee.
+--- !u!114 &5716133318538404841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913256376340240677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802fbc1ecb79a254b879c35c7d3ebd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: {fileID: 6618322632807785558}
+  questInformation: {fileID: 4134179228771921316}
+  storyState: 1.93
+  newQuestName: Return to the boss and give him his coffee
+  newQuestInformation: 'Go back to the bossess office on floor 2. He''s probably
+    having cafiene withdrawals.  '
+--- !u!114 &4708634320098541923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913256376340240677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802fbc1ecb79a254b879c35c7d3ebd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: {fileID: 6618322632807785558}
+  questInformation: {fileID: 4134179228771921316}
+  storyState: 2
+  newQuestName: Go find Sushi
+  newQuestInformation: Sushi is in the floor 1 Hallway, go see what he wants you
+    to do.
 --- !u!1 &1483585949729673185
 GameObject:
   m_ObjectHideFlags: 0
