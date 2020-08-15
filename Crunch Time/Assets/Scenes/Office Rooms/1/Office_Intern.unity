@@ -140,6 +140,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 146603629853946792, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: storyState
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 363415568779666417, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: newStoryState
+      value: 2.4
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893309557617323, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: playerObject
@@ -163,12 +173,12 @@ PrefabInstance:
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMaxStoryState
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMinStoryState
-      value: 0
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683731, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -248,22 +258,23 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
-      value: '*There are documents here to print*'
+      value: I've sent it to the printing room. Oh hang on, what's this?
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
-      value: _playerSolo*You check your computer*
+      value: _playerSoloOkay looks like theres an email here that has to be printed.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[2]
-      value: Well I better head to the printing room!
+      value: Theres a note here from Knife. He's right outside in the hallway and
+        he needs my help.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
-      value: _playerSoloI gotta go to the printing room.
+      value: _playerSoloI gotta go find Knife.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805649, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -615,6 +626,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8061055378880992482, guid: 597278ce354683a42b607a0064b3a047,
         type: 3}
+    - target: {fileID: 1460909354802986145, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460909354802986145, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.3828099
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460909354802986145, guid: 578051969e798ad47ac9ee19501ec893,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 4.505
+      objectReference: {fileID: 0}
     - target: {fileID: 1460909354802986149, guid: 578051969e798ad47ac9ee19501ec893,
         type: 3}
       propertyPath: m_Name
@@ -894,6 +920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overworldPosX: 7.13
   overworldPosY: 0.19
+  tempStoryState: 2.4
 --- !u!1 &2648172908585131088
 GameObject:
   m_ObjectHideFlags: 0
