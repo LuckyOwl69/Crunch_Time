@@ -266,10 +266,10 @@ PolygonCollider2D:
       - {x: -35.856445, y: -0.24115276}
       - {x: -19.464169, y: -0.22589588}
       - {x: -19.452652, y: 1.8399925}
-      - {x: -15.703629, y: 1.8481855}
-      - {x: -15.76169, y: 6.784355}
-      - {x: -11.994849, y: 6.7940063}
-      - {x: -11.968878, y: 1.8579273}
+      - {x: -14.241812, y: 1.8717623}
+      - {x: -14.252718, y: 6.7607784}
+      - {x: -10.686287, y: 6.746851}
+      - {x: -10.695683, y: 1.8579273}
       - {x: -6.1620555, y: 1.8395844}
       - {x: -6.1640363, y: -0.185915}
       - {x: 8.439142, y: -0.19324303}
@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 175314795}
   - component: {fileID: 175314797}
   - component: {fileID: 175314796}
+  - component: {fileID: 175314798}
   m_Layer: 0
   m_Name: Print Room
   m_TagString: Untagged
@@ -488,10 +489,36 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3636746, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &175314798
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175314794}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.88}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1682,6 +1709,7 @@ GameObject:
   - component: {fileID: 658252697}
   - component: {fileID: 658252699}
   - component: {fileID: 658252698}
+  - component: {fileID: 658252700}
   m_Layer: 0
   m_Name: Level 2
   m_TagString: Untagged
@@ -1697,7 +1725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658252696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4, y: 16.16, z: 0}
+  m_LocalPosition: {x: -0.1, y: 15.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1109200247}
@@ -1718,7 +1746,7 @@ MonoBehaviour:
   NextScene: Hallway_2
   useIndicator: {fileID: 470190742}
   transitionAnimation: {fileID: 691179165}
-  NextScenePositionX: -1.4
+  NextScenePositionX: -0.13
   NextScenePositionY: 15.3
 --- !u!61 &658252699
 BoxCollider2D:
@@ -1746,6 +1774,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.7762814, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &658252700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658252696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005a56f869517b54bbe187249bcd93dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimation: {fileID: 804094258}
 --- !u!1 &658487633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1460909354802986149, guid: 578051969e798ad47ac9ee19501ec893,
@@ -2243,6 +2284,12 @@ PrefabInstance:
 --- !u!4 &804094257 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4349502817272584701, guid: cfdb65fc58ea9d6498cb0afeb2642891,
+    type: 3}
+  m_PrefabInstance: {fileID: 804094256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &804094258 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4349502817272584702, guid: cfdb65fc58ea9d6498cb0afeb2642891,
     type: 3}
   m_PrefabInstance: {fileID: 804094256}
   m_PrefabAsset: {fileID: 0}
@@ -3198,6 +3245,7 @@ GameObject:
   - component: {fileID: 1179065316}
   - component: {fileID: 1179065318}
   - component: {fileID: 1179065317}
+  - component: {fileID: 1179065319}
   m_Layer: 0
   m_Name: Lunch Room
   m_TagString: Untagged
@@ -3247,10 +3295,36 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3636746, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &1179065319
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179065315}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.97}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3972,6 +4046,7 @@ GameObject:
   - component: {fileID: 1345020619}
   - component: {fileID: 1345020621}
   - component: {fileID: 1345020620}
+  - component: {fileID: 1345020622}
   m_Layer: 0
   m_Name: Intern Room
   m_TagString: Untagged
@@ -4021,10 +4096,36 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3636746, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &1345020622
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345020618}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.84}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4392,6 +4493,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1580483265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7116238672411836086, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 237495525949859945}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1580483266
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580483265}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.03}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3636746, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1586429714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5591,6 +5724,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7116238672411836084, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7116238672411836085, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: GameManagerObject
@@ -5649,7 +5787,7 @@ PrefabInstance:
     - target: {fileID: 7724059080341160478, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8392442401172043409, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
@@ -5710,7 +5848,7 @@ PrefabInstance:
     - target: {fileID: 9078015255928302726, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7116238671370743352, guid: 929fa3e99734ccd4896b4cb9ae5d15d1, type: 3}

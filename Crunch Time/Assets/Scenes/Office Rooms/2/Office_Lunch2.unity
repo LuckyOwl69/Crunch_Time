@@ -864,7 +864,7 @@ PrefabInstance:
     - target: {fileID: 363415568779666417, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: newStoryState
-      value: 1.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4114924711580380076, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overworldPosX: 6.4
   overworldPosY: 1
-  tempStoryState: 1.5
+  tempStoryState: 0
 --- !u!4 &2648172908847419215
 Transform:
   m_ObjectHideFlags: 0

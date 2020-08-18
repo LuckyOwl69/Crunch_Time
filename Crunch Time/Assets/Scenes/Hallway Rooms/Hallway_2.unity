@@ -186,10 +186,10 @@ PolygonCollider2D:
       - {x: -35.81331, y: -0.19684315}
       - {x: -19.468477, y: -0.25673866}
       - {x: -19.502287, y: 1.9025879}
-      - {x: -15.671737, y: 1.8735161}
-      - {x: -15.709232, y: 6.777479}
-      - {x: -11.999598, y: 6.7404366}
-      - {x: -11.917347, y: 1.8502645}
+      - {x: -14.255028, y: 1.8735161}
+      - {x: -14.2535305, y: 6.751484}
+      - {x: -10.751853, y: 6.7404366}
+      - {x: -10.721592, y: 1.8242702}
       - {x: -6.186221, y: 1.814805}
       - {x: -6.1602297, y: -0.22169018}
       - {x: 8.504787, y: -0.19665718}
@@ -4295,6 +4295,12 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 691179160}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &932350294 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4349502817272584702, guid: cfdb65fc58ea9d6498cb0afeb2642891,
+    type: 3}
+  m_PrefabInstance: {fileID: 2135597151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &936046511
 GameObject:
   m_ObjectHideFlags: 0
@@ -8084,6 +8090,7 @@ GameObject:
   - component: {fileID: 1775076647}
   - component: {fileID: 1775076649}
   - component: {fileID: 1775076648}
+  - component: {fileID: 1775076650}
   m_Layer: 0
   m_Name: Level 1
   m_TagString: Untagged
@@ -8099,7 +8106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775076646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.43, y: 16.34, z: 0}
+  m_LocalPosition: {x: -0.13, y: 15.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1109200247}
@@ -8120,7 +8127,7 @@ MonoBehaviour:
   NextScene: Hallway_1
   useIndicator: {fileID: 715508292}
   transitionAnimation: {fileID: 691179163}
-  NextScenePositionX: -1.52
+  NextScenePositionX: -0.13
   NextScenePositionY: 15.17
 --- !u!61 &1775076649
 BoxCollider2D:
@@ -8148,6 +8155,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.6210594, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1775076650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775076646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005a56f869517b54bbe187249bcd93dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimation: {fileID: 932350294}
 --- !u!1 &1786921378
 GameObject:
   m_ObjectHideFlags: 0
