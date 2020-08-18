@@ -3523,21 +3523,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Office Rooms Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
-        type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
-        type: 3}
-      propertyPath: m_ReferenceResolution.x
-      value: 1920
-      objectReference: {fileID: 0}
-    - target: {fileID: 6799870561975721756, guid: ba11147cb51dc8840a0c681307da6bb3,
-        type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 1080
-      objectReference: {fileID: 0}
     - target: {fileID: 6799870561975721758, guid: ba11147cb51dc8840a0c681307da6bb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3642,6 +3627,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229252663498398117, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -556.49994
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229252663498398117, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -38.600037
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229252663498398117, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 53.623672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229252663498398117, guid: ba11147cb51dc8840a0c681307da6bb3,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 53.623672
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba11147cb51dc8840a0c681307da6bb3, type: 3}
@@ -5964,21 +5969,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342690532924843839, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
-        type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342690532924843839, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
-        type: 3}
-      propertyPath: m_ReferenceResolution.x
-      value: 1920
-      objectReference: {fileID: 0}
-    - target: {fileID: 2342690532924843839, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
-        type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b00f5de6993e8545b39edb70f7a7c6e, type: 3}
