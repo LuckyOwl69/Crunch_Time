@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log(storyState);
+        Debug.Log(storyState);
         if (tempStoryState != 0)
             storyState = tempStoryState;
         tempStoryState = 0;
