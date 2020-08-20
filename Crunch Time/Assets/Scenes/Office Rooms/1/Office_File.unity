@@ -1617,6 +1617,11 @@ PrefabInstance:
       propertyPath: transitionAnimation
       value: 
       objectReference: {fileID: 297419787}
+    - target: {fileID: 6215587630523140540, guid: e1ca33e939aa1b64bbe689d76e30f51b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7976849123314757096, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: m_RootOrder

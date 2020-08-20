@@ -14,6 +14,8 @@ public class ExitController : MonoBehaviour
     public Animator transitionAnimation;
     public Animator doorAnimation;
 
+    public AudioSource doorSound;
+
     public float NextScenePositionX;
     public float NextScenePositionY;
 
@@ -60,6 +62,7 @@ public class ExitController : MonoBehaviour
     {
         useIndicator.SetActive(true);
         doorAnimation.SetBool("Open", true);
+        doorSound.Play();
 
     }
     void OnTriggerExit2D(Collider2D other)
