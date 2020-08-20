@@ -257,7 +257,8 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
-      value: _npcTalkingYou dont need to talk to me anymore
+      value: _npcTalkingThe utencils smell really bad. Like they haven't been cleaned
+        in ages.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -432,7 +433,7 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
-      value: _npcTalkingYoure not ready for me yet
+      value: _npcTalkingThis is the lunch room for nice polite workers.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -610,11 +611,16 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
@@ -625,18 +631,19 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
-      value: _npcTalkingGo upstairs and talk to Donut, he can help you find the next
-        mcguffun
+      value: _playerTalkingThe coffee machine is busted.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
-      value: 
+      value: _npcTalkingDoesn't surprise me. The utencils are always coming in here
+        and spilling condiments on everything.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[2]
-      value: 
+      value: _npcTalkingGo upstairs and talk to Donut, he can help you find the other
+        coffee machine.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -646,7 +653,20 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
-      value: The coffee machine is just on the wall there.
+      value: _npcTalkingGo upstairs and talk to Donut, he can help you find the other
+        coffee machine.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[1]
+      value: _npcTalkingDoesn't surprise me. The utencils are always coming in here
+        and spilling condiments on everything.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[2]
+      value: _npcTalkingGo upstairs and talk to Donut, he can help you find the other
+        coffee machine.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805649, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -943,12 +963,12 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
-      value: _playerTalkingCoffee machine
+      value: _playerTalkingI need to get the boss a coffee.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[2]
-      value: _npcTalkingThe coffee machine is just on the wall there.
+      value: _npcTalkingUse the coffee machine in the back there.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1133,11 +1153,16 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
@@ -1148,12 +1173,12 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
-      value: _playerSoloIs broke
+      value: '_playerSoloHm, this machine is broken. Also when was this last cleaned? '
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
-      value: 
+      value: _playerSoloIt's a mess!.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1168,7 +1193,12 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
-      value: The coffee machine is just on the wall there.
+      value: _playerSoloThis coffee machine is a mess!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[1]
+      value: _playerSoloIt's a mess!.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805649, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}

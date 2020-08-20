@@ -158,6 +158,11 @@ PrefabInstance:
       propertyPath: playerSprite
       value: 
       objectReference: {fileID: 1594958357}
+    - target: {fileID: 6402893309557617323, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: offset
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893309557617324, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_Sprite
@@ -886,6 +891,11 @@ PrefabInstance:
       propertyPath: playerSprite
       value: 
       objectReference: {fileID: 1594958357}
+    - target: {fileID: 6402893309557617323, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: offset
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893309557617324, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_Sprite
@@ -1259,6 +1269,11 @@ PrefabInstance:
       propertyPath: playerSprite
       value: 
       objectReference: {fileID: 1594958357}
+    - target: {fileID: 6402893309557617323, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: offset
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893309557617324, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: m_Sprite
