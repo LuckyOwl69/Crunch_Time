@@ -146,6 +146,14 @@ public class DialogueManager : MonoBehaviour
                 sentence = sentence.Replace("_playerSolo", "");
 
             }
+            
+            //stuff that happens when player talks solo
+            else if (sentence.Contains("_goToEnding"))
+            {
+                SceneManager.LoadScene("End_Menu 1");
+
+
+            }
 
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));

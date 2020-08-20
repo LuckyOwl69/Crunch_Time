@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Battle Scenes/Battle_Hallway 2.unity
     guid: 60f7c05986e992943a69bf8930a5376e
+  - enabled: 1
+    path: Assets/Scenes/Misc/End_Menu 1.unity
+    guid: 85b7c656187ef7d4db0135e5972eebf0
+  - enabled: 1
+    path: Assets/Scenes/Misc/End_Menu 2.unity
+    guid: d0be13dfb4784f64287941f41fed39d8
   m_configObjects: {}

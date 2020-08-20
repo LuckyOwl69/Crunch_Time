@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 7618530211325847415}
   - component: {fileID: 7618530211325847414}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas_tamplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

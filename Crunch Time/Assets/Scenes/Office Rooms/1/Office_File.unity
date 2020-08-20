@@ -121,6 +121,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35575957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5992957551727631833, guid: e1ca33e939aa1b64bbe689d76e30f51b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5992957552020700289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &35575959
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35575957}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.1, y: -0.59}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.92, y: 3.64}
+    newSize: {x: 5.46, y: 5.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9, y: 0.6}
+  m_EdgeRadius: 0
 --- !u!95 &297419787 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2967188326012241351, guid: ba11147cb51dc8840a0c681307da6bb3,
@@ -598,6 +630,7 @@ GameObject:
   - component: {fileID: 1765547757}
   - component: {fileID: 1765547759}
   - component: {fileID: 1765547758}
+  - component: {fileID: 1765547760}
   m_Layer: 0
   m_Name: Object 2
   m_TagString: Untagged
@@ -635,7 +668,7 @@ MonoBehaviour:
   playerObject: {fileID: 1594958353}
   thisSprite: {fileID: 1765547759}
   playerSprite: {fileID: 1594958357}
-  offset: 0
+  offset: 1
   layerOffset: 0
 --- !u!212 &1765547759
 SpriteRenderer:
@@ -687,6 +720,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1765547760
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765547756}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.1, y: -0.59}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.92, y: 3.64}
+    newSize: {x: 5.46, y: 5.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9, y: 0.6}
+  m_EdgeRadius: 0
 --- !u!95 &1778726445 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2342690532279983045, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
@@ -1442,6 +1501,11 @@ PrefabInstance:
       propertyPath: playerSprite
       value: 
       objectReference: {fileID: 1594958357}
+    - target: {fileID: 5992957551727631835, guid: e1ca33e939aa1b64bbe689d76e30f51b,
+        type: 3}
+      propertyPath: offset
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5992957551977245691, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: m_Points.Array.size

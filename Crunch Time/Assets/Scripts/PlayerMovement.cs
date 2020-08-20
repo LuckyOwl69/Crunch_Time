@@ -38,7 +38,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftShift))
             multiplier = 1;
 
-
+        if (Input.GetKey(KeyCode.Escape))
+            Quit();
     }
 
     void Movement()
@@ -50,5 +51,10 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         Movement();
+    }
+
+    void Quit()
+    {
+        Application.Quit();
     }
 }

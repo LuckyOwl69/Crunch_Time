@@ -7,7 +7,10 @@ public class QuestInformationHandler : MonoBehaviour
     public Animator questWindowAnimator;
     public Animator questWindowIconAnimator;
 
-    
+    public Animator mapWindowAnimator;
+    public Animator mapWindowIconAnimator;
+
+
     //public bool hasNewQuest;
 
     public GameObject questWindowNotification;
@@ -22,11 +25,27 @@ public class QuestInformationHandler : MonoBehaviour
         questWindowIconAnimator.SetBool("IsOpen", true);
         questWindowBackground.gameObject.SetActive(true);
     }
-    
+
     void CloseQuestWindow()
     {
         questWindowAnimator.SetBool("IsOpen", false);
         questWindowIconAnimator.SetBool("IsOpen", false);
+        questWindowBackground.gameObject.SetActive(false);
+
+    }
+
+    void OpenMapWindow()
+    {
+        mapWindowAnimator.SetBool("IsOpen", true);
+        mapWindowIconAnimator.SetBool("IsOpen", true);
+        questWindowBackground.gameObject.SetActive(true);
+
+    }
+
+    void CloseMapWindow()
+    {
+        mapWindowAnimator.SetBool("IsOpen", false);
+        mapWindowIconAnimator.SetBool("IsOpen", false);
         questWindowBackground.gameObject.SetActive(false);
 
     }
@@ -55,6 +74,18 @@ public class QuestInformationHandler : MonoBehaviour
         {
             CloseQuestWindow();
         }
+        
+        if (Input.GetKey(KeyCode.M))
+        {
+            OpenMapWindow();
+        }
+
+        if (Input.GetKeyUp(KeyCode.M))
+        {
+            CloseMapWindow();
+        }
+
+
 
     }
 }

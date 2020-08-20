@@ -121,6 +121,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &163463871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5992957551727631833, guid: e1ca33e939aa1b64bbe689d76e30f51b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5992957552020700289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &163463875
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163463871}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03898132, y: -1.5046755}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.92, y: 4.88}
+    newSize: {x: 5.46, y: 5.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.6881926, y: 0.6232474}
+  m_EdgeRadius: 0
 --- !u!1 &164344096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8140823975311056595, guid: 578051969e798ad47ac9ee19501ec893,
@@ -268,8 +300,8 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[2]
-      value: Theres a note here from Knife. He's right outside in the hallway and
-        he needs my help.
+      value: Theres a note here from Knife. He's in the file room and he needs my
+        help.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}

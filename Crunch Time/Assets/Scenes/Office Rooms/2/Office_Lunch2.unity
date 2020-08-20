@@ -262,7 +262,7 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
-      value: _npcTalkingGet out of here!
+      value: _npcTalkingGet out of here kid!
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -345,6 +345,38 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1748312140}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &655683375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5992957551727631833, guid: e1ca33e939aa1b64bbe689d76e30f51b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5992957552020700289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &655683377
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655683375}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.023388624, y: -0.90436506}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.94, y: 3.7}
+    newSize: {x: 5.46, y: 5.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.6590886, y: 0.9440155}
+  m_EdgeRadius: 0
 --- !u!95 &687551514 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5871471502216984673, guid: 5b00f5de6993e8545b39edb70f7a7c6e,
@@ -457,6 +489,7 @@ GameObject:
   - component: {fileID: 1380919497}
   - component: {fileID: 1380919499}
   - component: {fileID: 1380919498}
+  - component: {fileID: 1380919500}
   m_Layer: 0
   m_Name: Object 2
   m_TagString: Untagged
@@ -494,7 +527,7 @@ MonoBehaviour:
   playerObject: {fileID: 1594958353}
   thisSprite: {fileID: 1380919499}
   playerSprite: {fileID: 1594958357}
-  offset: 0
+  offset: 1
   layerOffset: 0
 --- !u!212 &1380919499
 SpriteRenderer:
@@ -546,6 +579,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1380919500
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380919496}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.08248544, y: -0.87526727}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.43, y: 3.03}
+    newSize: {x: 5.46, y: 5.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6967912, y: 0.8028798}
+  m_EdgeRadius: 0
 --- !u!1001 &1415309810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -765,6 +824,7 @@ GameObject:
   - component: {fileID: 1416963795}
   - component: {fileID: 1416963797}
   - component: {fileID: 1416963796}
+  - component: {fileID: 1416963798}
   m_Layer: 0
   m_Name: Object 3
   m_TagString: Untagged
@@ -802,7 +862,7 @@ MonoBehaviour:
   playerObject: {fileID: 1594958353}
   thisSprite: {fileID: 1416963797}
   playerSprite: {fileID: 1594958357}
-  offset: 0
+  offset: 1
   layerOffset: 0
 --- !u!212 &1416963797
 SpriteRenderer:
@@ -854,6 +914,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1416963798
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416963794}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.1, y: -0.87526727}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.43, y: 3.03}
+    newSize: {x: 5.46, y: 5.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6967912, y: 0.8028798}
+  m_EdgeRadius: 0
 --- !u!1001 &1425701968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1391,7 +1477,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[3]
       value: _npcTalkingYou wanna use the coffee machine? Well you gotta help me
-        out with a little favour if you catch my drift.
+        out with a little favour.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1412,8 +1498,8 @@ PrefabInstance:
     - target: {fileID: 6402893311324805648, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: dialogues.Array.data[0].sentences.Array.data[6]
-      value: _npcTalkingThanks, you may use the coffee machine now if you catch my
-        drift.
+      value: _npcTalkingThanks, you may use the coffee machine but don't get any
+        egg yolk in there.
       objectReference: {fileID: 0}
     - target: {fileID: 6402893311324805649, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
@@ -1987,7 +2073,7 @@ PrefabInstance:
     - target: {fileID: 5992957551727631832, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.55
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 5992957551727631833, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
@@ -2013,12 +2099,12 @@ PrefabInstance:
     - target: {fileID: 5992957551727631835, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: layerOffset
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5992957551727631835, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}
       propertyPath: offset
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5992957551977245689, guid: e1ca33e939aa1b64bbe689d76e30f51b,
         type: 3}

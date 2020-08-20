@@ -1421,10 +1421,55 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 311314058071442891, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 913236639217194286, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
       propertyPath: m_Name
       value: Squares pink (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290797642847789332, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1518808563450429059, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730697288411273700, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779319960216560393, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034100633460977252, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908692486501628432, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589371678046856846, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7890207364424665238, guid: c8a373c877a27904fa12cac533d69c07,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
