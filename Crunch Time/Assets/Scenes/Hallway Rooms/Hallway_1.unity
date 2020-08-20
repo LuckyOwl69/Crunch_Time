@@ -303,7 +303,7 @@ PrefabInstance:
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.273438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
@@ -478,7 +478,7 @@ MonoBehaviour:
   NextScene: Office_Printing
   useIndicator: {fileID: 470190742}
   transitionAnimation: {fileID: 691179165}
-  doorAnimation: {fileID: 0}
+  doorAnimation: {fileID: 594635542}
   NextScenePositionX: 7.31
   NextScenePositionY: -0.44
 --- !u!61 &175314797
@@ -1029,7 +1029,7 @@ PrefabInstance:
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.273438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
@@ -1104,7 +1104,7 @@ PrefabInstance:
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.273438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
@@ -1341,7 +1341,7 @@ PrefabInstance:
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.273438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
@@ -3924,7 +3924,7 @@ PrefabInstance:
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.273438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095323998499381016, guid: c8a373c877a27904fa12cac533d69c07,
         type: 3}
@@ -4382,7 +4382,7 @@ MonoBehaviour:
   NextScene: Office_Intern
   useIndicator: {fileID: 470190742}
   transitionAnimation: {fileID: 691179165}
-  doorAnimation: {fileID: 0}
+  doorAnimation: {fileID: 1934000393}
   NextScenePositionX: 7.31
   NextScenePositionY: -0.44
 --- !u!61 &1345020621
@@ -6170,6 +6170,11 @@ PrefabInstance:
       propertyPath: transitionAnimation
       value: 
       objectReference: {fileID: 691179165}
+    - target: {fileID: 7116238672411836085, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
+        type: 3}
+      propertyPath: doorAnimation
+      value: 
+      objectReference: {fileID: 776082140}
     - target: {fileID: 7116238672411836086, guid: 929fa3e99734ccd4896b4cb9ae5d15d1,
         type: 3}
       propertyPath: m_Name
