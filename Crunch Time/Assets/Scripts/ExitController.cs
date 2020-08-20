@@ -12,7 +12,7 @@ public class ExitController : MonoBehaviour
     public GameObject useIndicator;
 
     public Animator transitionAnimation;
-    //public Animator doorAnimation;
+    public Animator doorAnimation;
 
     public float NextScenePositionX;
     public float NextScenePositionY;
@@ -33,8 +33,6 @@ public class ExitController : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 StartCoroutine(LoadNewScene());
-                
-
             }
 
         }
@@ -61,13 +59,13 @@ public class ExitController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         useIndicator.SetActive(true);
-        //doorAnimation.SetBool("Open", true);
+        doorAnimation.SetBool("Open", true);
 
     }
     void OnTriggerExit2D(Collider2D other)
     {
         useIndicator.SetActive(false);
-        //doorAnimation.SetBool("Open", false);
+        doorAnimation.SetBool("Open", false);
 
 
     }
