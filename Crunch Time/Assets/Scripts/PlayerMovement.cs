@@ -40,6 +40,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Escape))
             Quit();
+
+        if (Input.GetKey(KeyCode.R))
+            Restart();
     }
 
     void Movement()
@@ -56,5 +59,10 @@ public class PlayerMovement : MonoBehaviour
     void Quit()
     {
         Application.Quit();
+    }
+
+    void Restart()
+    {
+        SceneManager.LoadScene("Main_Menu");
     }
 }

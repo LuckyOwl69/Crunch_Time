@@ -2374,8 +2374,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: dae0a28664d543643999d4e5f89b3bbe,
+      objectReference: {fileID: 21300000, guid: 596e80efb1eb2e24e8590161af133e66,
         type: 3}
+    - target: {fileID: 6402893309557617325, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893309557617325, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13000011
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMinStoryState
@@ -4513,8 +4523,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: dae0a28664d543643999d4e5f89b3bbe,
+      objectReference: {fileID: 21300000, guid: 596e80efb1eb2e24e8590161af133e66,
         type: 3}
+    - target: {fileID: 6402893309557617325, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893309557617325, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMinStoryState
@@ -7300,8 +7320,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: dae0a28664d543643999d4e5f89b3bbe,
+      objectReference: {fileID: 21300000, guid: 596e80efb1eb2e24e8590161af133e66,
         type: 3}
+    - target: {fileID: 6402893309557617325, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402893309557617325, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13000011
+      objectReference: {fileID: 0}
     - target: {fileID: 6402893310129683730, guid: ad3eb9c2969f6e84e8c3da5c7e7c3418,
         type: 3}
       propertyPath: myMinStoryState
